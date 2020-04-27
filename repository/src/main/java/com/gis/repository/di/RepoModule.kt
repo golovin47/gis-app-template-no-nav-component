@@ -56,7 +56,7 @@ val repoModule = module {
 
   single<ChatRoomsDataSource>(named("remoteChatRoomsDataSource")) { RemoteChatRoomsDataSource(get()) }
 
-  single<ConversationRepository> { ConversationRepositoryImpl(get()) }
+  single<ConversationRepository> { ConversationRepositoryImpl(get(named("remoteConversationDataSource"))) }
 
   single<ConversationDataSource>(named("remoteConversationDataSource")) { RemoteConversationDataSource(get()) }
 

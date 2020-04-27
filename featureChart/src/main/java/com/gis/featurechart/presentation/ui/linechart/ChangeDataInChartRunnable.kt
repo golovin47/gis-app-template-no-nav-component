@@ -1,4 +1,4 @@
-package com.gis.featurechart.linechart
+package com.gis.featurechart.presentation.ui.linechart
 
 import android.os.Handler
 import com.github.mikephil.charting.charts.LineChart

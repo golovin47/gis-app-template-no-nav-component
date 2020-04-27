@@ -1,7 +1,7 @@
 package com.gis.featurechart.navigation
 
 import androidx.fragment.app.FragmentManager
-import com.gis.featurechart.linechart.LineChartFragment
+import com.gis.featurechart.presentation.ui.linechart.LineChartFragment
 import com.gis.featurefriends.R
 
 class LineChartNavigator {

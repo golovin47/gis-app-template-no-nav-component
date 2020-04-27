@@ -5,67 +5,51 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.core.content.ContextCompat
-import androidx.databinding.DataBindingUtil
-import androidx.fragment.app.Fragment
-import androidx.lifecycle.Observer
+import com.gis.featureuserprofile.R
+import com.gis.featureuserprofile.databinding.FragmentUserProfileBinding
+import com.gis.featureuserprofile.presentation.ui.userprofile.UserProfileIntent.*
 import com.gis.repository.domain.entity.User
-import com.gis.utils.presentation.BaseView
 import com.gis.utils.domain.ImageLoader
-import com.gis.utils.toSimpleDate
+import com.gis.utils.presentation.BaseMviFragment
 import com.gis.utils.toDayMonthYearString
+import com.gis.utils.toSimpleDate
 import com.google.android.material.appbar.AppBarLayout
 import com.google.android.material.snackbar.Snackbar
 import com.jakewharton.rxbinding2.view.RxView
 import com.jakewharton.rxbinding2.widget.RxCompoundButton
-import com.gis.featureuserprofile.R
-import com.gis.featureuserprofile.databinding.FragmentUserProfileBinding
-import com.gis.featureuserprofile.presentation.ui.userprofile.UserProfileIntent.*
 import io.reactivex.Observable
-import io.reactivex.disposables.Disposable
 import io.reactivex.subjects.PublishSubject
 import org.koin.android.ext.android.inject
 import org.koin.androidx.viewmodel.ext.android.viewModel
 import java.util.*
 import java.util.concurrent.TimeUnit
 
-class UserProfileFragment : Fragment(), BaseView<UserProfileState> {
+class UserProfileFragment :
+  BaseMviFragment<UserProfileState, FragmentUserProfileBinding, UserProfileViewModel>() {
 
-  private var binding: FragmentUserProfileBinding? = null
-  private var currentState: UserProfileState? = null
+  override val layoutId: Int = R.layout.fragment_user_profile
   private var ctblIntentsPublisher = PublishSubject.create<UserProfileIntent>()
-  private lateinit var intentsSubscription: Disposable
-  private val viewModel: UserProfileViewModel by viewModel()
+  override val viewModel: UserProfileViewModel by viewModel()
   private val imageLoader: ImageLoader by inject()
+  private var currentState: UserProfileState? = null
 
-  override fun onCreate(savedInstanceState: Bundle?) {
-    super.onCreate(savedInstanceState)
-    handleStates()
-  }
-
-  override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-    initBinding(inflater, container)
+  override fun onCreateView(
+    inflater: LayoutInflater,
+    container: ViewGroup?,
+    savedInstanceState: Bundle?
+  ): View? {
+    super.onCreateView(inflater, container, savedInstanceState)
     initCollapsingTbLayout()
-    initIntents()
     return binding!!.root
   }
 
-  override fun onDestroyView() {
-    binding = null
-    intentsSubscription.dispose()
-    super.onDestroyView()
-  }
-
-  private fun initBinding(inflater: LayoutInflater, container: ViewGroup?) {
-    binding = DataBindingUtil.inflate(
-      inflater,
-      R.layout.fragment_user_profile,
-      container,
-      false
-    )
-  }
-
   private fun initCollapsingTbLayout() {
-    binding!!.ctblProfile.setCollapsedTitleTextColor(ContextCompat.getColor(context!!, android.R.color.white))
+    binding!!.ctblProfile.setCollapsedTitleTextColor(
+      ContextCompat.getColor(
+        context!!,
+        android.R.color.white
+      )
+    )
     binding!!.ablProfile.addOnOffsetChangedListener(AppBarLayout.OnOffsetChangedListener { appBarLayout, i ->
       if (Math.abs(i) - appBarLayout.totalScrollRange == 0) {
         if (binding!!.ctblProfile.title == null)
@@ -81,8 +65,8 @@ class UserProfileFragment : Fragment(), BaseView<UserProfileState> {
     })
   }
 
-  override fun initIntents() {
-    intentsSubscription = Observable.merge(listOf(
+  override fun userIntents(): Observable<Any> =
+    Observable.merge(listOf(
 
       Observable.just(StartObserveUser),
 
@@ -103,7 +87,9 @@ class UserProfileFragment : Fragment(), BaseView<UserProfileState> {
       RxView.clicks(binding!!.tvBirthdate)
         .throttleFirst(1000, TimeUnit.MILLISECONDS)
         .map {
-          val calendar = GregorianCalendar().apply { time = binding!!.tvBirthdate.text.toString().toSimpleDate() }
+          val calendar = GregorianCalendar().apply {
+            time = binding!!.tvBirthdate.text.toString().toSimpleDate()
+          }
           val year = calendar.get(Calendar.YEAR)
           val month = calendar.get(Calendar.MONTH)
           val day = calendar.get(Calendar.DAY_OF_MONTH)
@@ -127,12 +113,6 @@ class UserProfileFragment : Fragment(), BaseView<UserProfileState> {
         .throttleFirst(1000, TimeUnit.MILLISECONDS)
         .map { SignOut }
     ))
-      .subscribe(viewModel.viewIntentsConsumer())
-  }
-
-  override fun handleStates() {
-    viewModel.stateReceived().observe(this, Observer { state -> render(state) })
-  }
 
   private fun setUserInfo(state: UserProfileState) {
     if (!state.user.avatarUrl.isEmpty())

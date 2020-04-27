@@ -1,4 +1,4 @@
-package com.gis.featurechart.linechart
+package com.gis.featurechart.presentation.ui.linechart
 
 import android.os.Bundle
 import android.os.Handler
@@ -10,23 +10,22 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import com.gis.utils.presentation.BaseView
 import com.github.mikephil.charting.charts.LineChart
-import com.github.mikephil.charting.components.Description
-import com.github.mikephil.charting.data.LineData
 import com.github.mikephil.charting.data.LineDataSet
 import com.jakewharton.rxbinding2.view.RxView
 import com.gis.featurefriends.databinding.FragmentLineChartBinding
 import io.reactivex.Observable
 import io.reactivex.disposables.Disposable
 import org.koin.androidx.viewmodel.ext.android.viewModel
-import com.gis.featurechart.linechart.LineChartIntent.*
+import com.gis.featurechart.presentation.ui.linechart.LineChartIntent.*
 import com.gis.featurefriends.R
+import com.gis.utils.presentation.BaseMviFragment
 import java.util.concurrent.TimeUnit
 
-class LineChartFragment : Fragment(), BaseView<LineChartState> {
+class LineChartFragment :
+  BaseMviFragment<LineChartState, FragmentLineChartBinding, LineChartViewModel>() {
 
-  private var binding: FragmentLineChartBinding? = null
-  private val viewModel: LineChartViewModel by viewModel()
-  private lateinit var intentsSubscription: Disposable
+  override val layoutId: Int = R.layout.fragment_line_chart
+  override val viewModel: LineChartViewModel by viewModel()
 
   private val animHandler = Handler()
 
@@ -35,21 +34,14 @@ class LineChartFragment : Fragment(), BaseView<LineChartState> {
     handleStates()
   }
 
-  override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-    initBinding(inflater, container)
+  override fun onCreateView(
+    inflater: LayoutInflater,
+    container: ViewGroup?,
+    savedInstanceState: Bundle?
+  ): View? {
+    super.onCreateView(inflater, container, savedInstanceState)
     initChartView()
-    initIntents()
     return binding!!.root
-  }
-
-  override fun onDestroyView() {
-    binding = null
-    intentsSubscription.dispose()
-    super.onDestroyView()
-  }
-
-  private fun initBinding(inflater: LayoutInflater, container: ViewGroup?) {
-    binding = DataBindingUtil.inflate(inflater, R.layout.fragment_line_chart, container, false)
   }
 
   private fun initChartView() {
@@ -59,20 +51,14 @@ class LineChartFragment : Fragment(), BaseView<LineChartState> {
     }
   }
 
-  override fun initIntents() {
-    intentsSubscription = Observable.merge(
+  override fun userIntents(): Observable<Any> =
+    Observable.merge(
       listOf(
         RxView.clicks(binding!!.btnChangeDataSet)
           .throttleFirst(1000, TimeUnit.MILLISECONDS)
           .map { LoadOtherChartData }
       )
     )
-      .subscribe(viewModel.viewIntentsConsumer())
-  }
-
-  override fun handleStates() {
-    viewModel.stateReceived().observe(this, Observer { state -> render(state) })
-  }
 
   override fun render(state: LineChartState) {
     changeDataInChart(state)
@@ -94,7 +80,11 @@ class LineChartFragment : Fragment(), BaseView<LineChartState> {
     }
   }
 
-  private fun LineChart.animateChangeDataInChart(prevData: LineDataSet, newData: LineDataSet, duration: Long) {
+  private fun LineChart.animateChangeDataInChart(
+    prevData: LineDataSet,
+    newData: LineDataSet,
+    duration: Long
+  ) {
     val dy = Array(prevData.entryCount) { 0f }
     val dx = Array(prevData.entryCount) { 0f }
     val iterations = (duration.toInt() / 1000) * 30

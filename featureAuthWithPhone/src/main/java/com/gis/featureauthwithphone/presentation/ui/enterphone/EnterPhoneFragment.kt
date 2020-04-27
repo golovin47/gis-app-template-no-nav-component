@@ -1,58 +1,31 @@
 package com.gis.featureauthwithphone.presentation.ui.enterphone
 
-import android.os.Bundle
-import android.view.LayoutInflater
 import android.view.View
-import android.view.View.*
-import android.view.ViewGroup
-import androidx.databinding.DataBindingUtil
-import androidx.fragment.app.Fragment
-import androidx.lifecycle.Observer
-import com.gis.repository.domain.entity.ValidationResult.*
-import com.gis.utils.presentation.BaseView
-import com.gis.utils.domain.ImageLoader
-import com.gis.utils.hideKeyboard
-import com.jakewharton.rxbinding2.view.RxView
-import com.jakewharton.rxbinding2.widget.RxTextView
+import android.view.View.GONE
+import android.view.View.VISIBLE
 import com.gis.featureauthwithphone.R
 import com.gis.featureauthwithphone.databinding.FragmentAuthWithPhoneBinding
 import com.gis.featureauthwithphone.presentation.ui.enterphone.EnterPhoneIntent.*
+import com.gis.repository.domain.entity.ValidationResult.Invalid
+import com.gis.repository.domain.entity.ValidationResult.Valid
+import com.gis.utils.domain.ImageLoader
+import com.gis.utils.hideKeyboard
+import com.gis.utils.presentation.BaseMviFragment
+import com.jakewharton.rxbinding2.view.RxView
+import com.jakewharton.rxbinding2.widget.RxTextView
 import io.reactivex.Observable
-import io.reactivex.disposables.Disposable
 import org.koin.android.ext.android.inject
 import org.koin.androidx.viewmodel.ext.android.viewModel
 import java.util.concurrent.TimeUnit
 
-class EnterPhoneFragment : Fragment(), BaseView<EnterPhoneState> {
+class EnterPhoneFragment : BaseMviFragment<EnterPhoneState, FragmentAuthWithPhoneBinding, EnterPhoneViewModel>() {
 
-  private var binding: FragmentAuthWithPhoneBinding? = null
-  private lateinit var intentsSubscription: Disposable
-  private val viewModel: EnterPhoneViewModel by viewModel()
+  override val layoutId: Int = R.layout.fragment_auth_with_phone
+  override val viewModel: EnterPhoneViewModel by viewModel()
   private val imageLoader: ImageLoader by inject()
 
-  override fun onCreate(savedInstanceState: Bundle?) {
-    super.onCreate(savedInstanceState)
-    handleStates()
-  }
-
-  override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-    initBinding(inflater, container)
-    initIntents()
-    return binding!!.root
-  }
-
-  private fun initBinding(inflater: LayoutInflater, container: ViewGroup?) {
-    binding = DataBindingUtil.inflate(inflater, R.layout.fragment_auth_with_phone, container, false)
-  }
-
-  override fun onDestroyView() {
-    binding = null
-    intentsSubscription.dispose()
-    super.onDestroyView()
-  }
-
-  override fun initIntents() {
-    intentsSubscription = Observable.merge(listOf(
+  override fun userIntents(): Observable<Any> =
+    Observable.merge(listOf(
 
       Observable.just(ObserveCurrentCountry),
 
@@ -72,12 +45,6 @@ class EnterPhoneFragment : Fragment(), BaseView<EnterPhoneState> {
         .throttleFirst(500, TimeUnit.MILLISECONDS)
         .map { SendPhone("${binding!!.tvCode.text}${binding!!.etPhone.text}") }
     ))
-      .subscribe(viewModel.viewIntentsConsumer())
-  }
-
-  override fun handleStates() {
-    viewModel.stateReceived().observe(this, Observer { state -> render(state) })
-  }
 
   override fun render(state: EnterPhoneState) {
     imageLoader.loadImg(binding!!.ivFlag, state.chosenCountry.flagResId, false)

@@ -1,7 +1,7 @@
 package com.gis.featurechart.di
 
 import androidx.fragment.app.FragmentManager
-import com.gis.featurechart.linechart.LineChartViewModel
+import com.gis.featurechart.presentation.ui.linechart.LineChartViewModel
 import com.gis.featurechart.navigation.LineChartCoordinator
 import com.gis.featurechart.navigation.LineChartNavigator
 import org.koin.androidx.viewmodel.dsl.viewModel

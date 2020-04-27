@@ -22,6 +22,7 @@ import com.jakewharton.rxbinding2.widget.RxTextView
 import com.gis.featureauthwithphone.R
 import com.gis.featureauthwithphone.databinding.FragmentAuthWithPhoneOnboardingBinding
 import com.gis.featureauthwithphone.presentation.ui.enterphonewithonboarding.EnterPhoneWithOnboardingIntent.*
+import com.gis.utils.presentation.BaseMviFragment
 import io.reactivex.Observable
 import io.reactivex.disposables.Disposable
 import net.yslibrary.android.keyboardvisibilityevent.KeyboardVisibilityEvent
@@ -32,11 +33,11 @@ import org.koin.androidx.viewmodel.ext.android.viewModel
 import org.koin.core.qualifier.named
 import java.util.concurrent.TimeUnit
 
-class EnterPhoneWithOnboardingFragment : Fragment(), BaseView<EnterPhoneWithOnboardingState> {
+class EnterPhoneWithOnboardingFragment :
+  BaseMviFragment<EnterPhoneWithOnboardingState, FragmentAuthWithPhoneOnboardingBinding, EnterPhoneWithOnboardingViewModel>() {
 
-  private var binding: FragmentAuthWithPhoneOnboardingBinding? = null
-  private lateinit var intentsSubscription: Disposable
-  private val viewModel: EnterPhoneWithOnboardingViewModel by viewModel()
+  override val layoutId: Int = R.layout.fragment_auth_with_phone_onboarding
+  override val viewModel: EnterPhoneWithOnboardingViewModel by viewModel()
   private val imageLoader: ImageLoader by inject()
 
   private lateinit var keyboardWatcher: Unregistrar
@@ -49,13 +50,12 @@ class EnterPhoneWithOnboardingFragment : Fragment(), BaseView<EnterPhoneWithOnbo
       initOnboardingNavigator()
       startOnboarding()
     }
-
-    handleStates()
   }
 
   private fun initOnboardingNavigator() {
     get<(FragmentManager) -> Unit>(
-      named("setOnboardingFragmentManager")).invoke(childFragmentManager)
+      named("setOnboardingFragmentManager")
+    ).invoke(childFragmentManager)
     get<(Int) -> Unit>(named("setOnboardingFragmentContainer")).invoke(R.id.onboardingContainer)
   }
 
@@ -63,21 +63,21 @@ class EnterPhoneWithOnboardingFragment : Fragment(), BaseView<EnterPhoneWithOnbo
     get<(Boolean) -> Unit>(named("startOnboarding")).invoke(false)
   }
 
-  override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-    initBinding(inflater, container)
+  override fun onCreateView(
+    inflater: LayoutInflater,
+    container: ViewGroup?,
+    savedInstanceState: Bundle?
+  ): View? {
+    super.onCreateView(inflater, container, savedInstanceState)
     registerKeyboardWatcher()
     initNavBarHeight()
-    initIntents()
     return binding!!.root
-  }
-
-  private fun initBinding(inflater: LayoutInflater, container: ViewGroup?) {
-    binding = DataBindingUtil.inflate(inflater, R.layout.fragment_auth_with_phone_onboarding, container, false)
   }
 
   private fun initNavBarHeight() {
     val activityRoot = (activity!!.findViewById<ViewGroup>(android.R.id.content)).getChildAt(0)
-    activityRoot.viewTreeObserver.addOnGlobalLayoutListener(object : ViewTreeObserver.OnGlobalLayoutListener {
+    activityRoot.viewTreeObserver.addOnGlobalLayoutListener(object :
+      ViewTreeObserver.OnGlobalLayoutListener {
       override fun onGlobalLayout() {
         activityRoot.viewTreeObserver.removeOnGlobalLayoutListener(this)
         val r = Rect()
@@ -105,14 +105,12 @@ class EnterPhoneWithOnboardingFragment : Fragment(), BaseView<EnterPhoneWithOnbo
   }
 
   override fun onDestroyView() {
-    binding = null
-    intentsSubscription.dispose()
-    keyboardWatcher.unregister()
     super.onDestroyView()
+    keyboardWatcher.unregister()
   }
 
-  override fun initIntents() {
-    intentsSubscription = Observable.merge(listOf(
+  override fun userIntents(): Observable<Any> =
+    Observable.merge(listOf(
 
       Observable.just(ObserveCurrentCountry),
 
@@ -132,12 +130,6 @@ class EnterPhoneWithOnboardingFragment : Fragment(), BaseView<EnterPhoneWithOnbo
         .throttleFirst(500, TimeUnit.MILLISECONDS)
         .map { SendPhone("${binding!!.tvCode.text}${binding!!.etPhone.text}") }
     ))
-      .subscribe(viewModel.viewIntentsConsumer())
-  }
-
-  override fun handleStates() {
-    viewModel.stateReceived().observe(this, Observer { state -> render(state) })
-  }
 
   override fun render(state: EnterPhoneWithOnboardingState) {
     imageLoader.loadImg(binding!!.ivFlag, state.chosenCountry.flagResId, false)

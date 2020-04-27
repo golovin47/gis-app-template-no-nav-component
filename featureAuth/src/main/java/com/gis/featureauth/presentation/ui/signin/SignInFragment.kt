@@ -18,70 +18,33 @@ import com.gis.featureauth.R
 import com.gis.featureauth.databinding.FragmentSignInBinding
 import com.gis.featureauth.presentation.ui.signin.SignInIntent.*
 import com.gis.featureauth.presentation.ui.smscode.SmsCodeDialogFragment
+import com.gis.utils.presentation.BaseMviFragment
 import io.reactivex.Observable
 import io.reactivex.disposables.Disposable
 import io.reactivex.subjects.PublishSubject
 import org.koin.androidx.viewmodel.ext.android.viewModel
 import java.util.concurrent.TimeUnit
 
-class SignInFragment : Fragment(), BaseView<SignInState> {
+class SignInFragment : BaseMviFragment<SignInState, FragmentSignInBinding, SignInViewModel>() {
 
-  private var binding: FragmentSignInBinding? = null
+  override val layoutId: Int = R.layout.fragment_sign_in
   private val intentsPublisher = PublishSubject.create<SignInIntent>()
-  private lateinit var intentsSubscription: Disposable
-  private val viewModel: SignInViewModel by viewModel()
-
-  override fun onCreate(savedInstanceState: Bundle?) {
-    super.onCreate(savedInstanceState)
-    handleStates()
-  }
+  override val viewModel: SignInViewModel by viewModel()
 
   override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-    initBinding(inflater, container)
+    super.onCreateView(inflater, container, savedInstanceState)
     initFingerprint()
-    initIntents()
     return binding!!.root
-  }
-
-  override fun onDestroyView() {
-    binding = null
-    intentsSubscription.dispose()
-    super.onDestroyView()
-  }
-
-  private fun initBinding(inflater: LayoutInflater, container: ViewGroup?) {
-    binding = DataBindingUtil.inflate(inflater, R.layout.fragment_sign_in, container, false)
   }
 
   private fun initFingerprint() {
     binding!!.ivFingerPrint.visibility = if (isFingerprintAvailable(context!!)) VISIBLE else GONE
   }
 
-  override fun initIntents() {
-    intentsSubscription = Observable.merge(listOf(
+  override fun userIntents(): Observable<Any> =
+    Observable.merge(listOf(
 
       intentsPublisher,
-
-      RxView.clicks(binding!!.btnSignIn)
-        .map {
-          if (binding!!.etPhone.text.toString().isNotBlank() ||
-            (binding!!.etPhone.hasFocus() &&
-                binding!!.etEmail.text!!.isBlank() &&
-                binding!!.etPassword.text!!.isBlank())
-          )
-            SignInWithPhone(phone = binding!!.etPhone.text.toString())
-          else
-            SignInWithCreds(
-              email = binding!!.etEmail.text.toString(),
-              password = binding!!.etPassword.text.toString()
-            )
-        },
-
-      RxView.clicks(binding!!.ivFacebook)
-        .map { SignInWithFacebook },
-
-      RxView.clicks(binding!!.ivTwitter)
-        .map { SignInWithTwitter },
 
       RxView.clicks(binding!!.ivInstagram)
         .map { SignInWithInstagram },
@@ -97,12 +60,7 @@ class SignInFragment : Fragment(), BaseView<SignInState> {
         .throttleFirst(500, TimeUnit.MILLISECONDS)
         .map { GetUsersAvailableForFingerprintAuth(activity!!) }
 
-    )).subscribe(viewModel.viewIntentsConsumer())
-  }
-
-  override fun handleStates() {
-    viewModel.stateReceived().observe(this, Observer { state -> render(state) })
-  }
+    ))
 
   override fun render(state: SignInState) {
     binding!!.loading = state.loading

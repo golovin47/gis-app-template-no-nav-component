@@ -1,4 +1,4 @@
-package com.gis.featurechart.linechart
+package com.gis.featurechart.presentation.ui.linechart
 
 import com.gis.repository.domain.entity.ChartDataEntry
 import com.gis.repository.domain.interactors.LoadOtherChartDataUseCase
@@ -9,8 +9,8 @@ import com.github.mikephil.charting.data.LineData
 import com.github.mikephil.charting.data.LineDataSet
 import com.github.mikephil.charting.interfaces.datasets.ILineDataSet
 import io.reactivex.Observable
-import com.gis.featurechart.linechart.LineChartIntent.*
-import com.gis.featurechart.linechart.LineChartStateChange.*
+import com.gis.featurechart.presentation.ui.linechart.LineChartIntent.*
+import com.gis.featurechart.presentation.ui.linechart.LineChartStateChange.*
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.schedulers.Schedulers
 

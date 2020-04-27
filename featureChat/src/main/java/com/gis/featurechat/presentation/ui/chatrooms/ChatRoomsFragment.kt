@@ -4,64 +4,49 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.databinding.DataBindingUtil
-import androidx.fragment.app.Fragment
-import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.gis.utils.presentation.BaseView
+import com.gis.featurechat.R
+import com.gis.featurechat.databinding.FragmentChatRoomsBinding
+import com.gis.featurechat.presentation.ui.chatrooms.ChatRoomsIntent.*
+import com.gis.featurechat.presentation.ui.chatrooms.ChatRoomsListItem.ChatRoomsEmptySearchItem
+import com.gis.featurechat.presentation.ui.chatrooms.ChatRoomsListItem.ChatRoomsLoadingItem
 import com.gis.utils.domain.ImageLoader
 import com.gis.utils.hideKeyboard
+import com.gis.utils.presentation.BaseMviFragment
 import com.gis.utils.showKeyboard
 import com.google.android.material.snackbar.Snackbar
 import com.jakewharton.rxbinding2.view.RxView
 import com.jakewharton.rxbinding2.widget.RxTextView
-import com.gis.featurechat.R
-import com.gis.featurechat.databinding.FragmentChatRoomsBinding
-import com.gis.featurechat.presentation.ui.chatrooms.ChatRoomsIntent.*
-import com.gis.featurechat.presentation.ui.chatrooms.ChatRoomsListItem.ChatRoomsLoadingItem
 import io.reactivex.Observable
 import io.reactivex.android.schedulers.AndroidSchedulers
-import io.reactivex.disposables.Disposable
 import io.reactivex.subjects.PublishSubject
 import org.koin.android.ext.android.inject
 import org.koin.androidx.viewmodel.ext.android.viewModel
 import java.util.concurrent.TimeUnit
-import com.gis.featurechat.presentation.ui.chatrooms.ChatRoomsListItem.*
 
-class ChatRoomsFragment : Fragment(), BaseView<ChatRoomsState> {
+class ChatRoomsFragment :
+  BaseMviFragment<ChatRoomsState, FragmentChatRoomsBinding, ChatRoomsViewModel>() {
 
-  private var binding: FragmentChatRoomsBinding? = null
+  override val layoutId: Int = R.layout.fragment_chat_rooms
   private val intentsPublisher = PublishSubject.create<ChatRoomsIntent>()
-  private lateinit var intentsSubscription: Disposable
-  private val viewModel: ChatRoomsViewModel by viewModel()
+  override val viewModel: ChatRoomsViewModel by viewModel()
   private val imageLoader: ImageLoader by inject()
   private var currentState: ChatRoomsState? = null
 
-  override fun onCreate(savedInstanceState: Bundle?) {
-    super.onCreate(savedInstanceState)
-    handleStates()
-  }
 
-  override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-    initBinding(inflater, container)
+  override fun onCreateView(
+    inflater: LayoutInflater,
+    container: ViewGroup?,
+    savedInstanceState: Bundle?
+  ): View? {
+    super.onCreateView(inflater, container, savedInstanceState)
     initToolbar()
     initRecyclerView()
     initSwipeRefresh()
     initClearSearchBtn()
-    initIntents()
     return binding!!.root
-  }
-
-  override fun onDestroyView() {
-    binding = null
-    intentsSubscription.dispose()
-    super.onDestroyView()
-  }
-
-  private fun initBinding(inflater: LayoutInflater, container: ViewGroup?) {
-    binding = DataBindingUtil.inflate(inflater, R.layout.fragment_chat_rooms, container, false)
   }
 
   private fun initToolbar() {
@@ -120,8 +105,8 @@ class ChatRoomsFragment : Fragment(), BaseView<ChatRoomsState> {
     }
   }
 
-  override fun initIntents() {
-    intentsSubscription = Observable.merge(listOf(
+  override fun userIntents(): Observable<Any> =
+    Observable.merge(listOf(
 
       Observable.just(StartObserveChatRooms),
 
@@ -129,7 +114,8 @@ class ChatRoomsFragment : Fragment(), BaseView<ChatRoomsState> {
 
       RxTextView.textChanges(binding!!.etSearch)
         .doOnNext { text ->
-          binding!!.ivClearSearch.visibility = if (text.toString().isBlank()) View.GONE else View.VISIBLE
+          binding!!.ivClearSearch.visibility =
+            if (text.toString().isBlank()) View.GONE else View.VISIBLE
         }
         .debounce(300, TimeUnit.MILLISECONDS, AndroidSchedulers.mainThread())
         .map { SearchChatRooms(it.toString().trim()) },
@@ -138,12 +124,6 @@ class ChatRoomsFragment : Fragment(), BaseView<ChatRoomsState> {
         .throttleFirst(1000, TimeUnit.MILLISECONDS)
         .map { GoToCreateNewRoom }
     ))
-      .subscribe(viewModel.viewIntentsConsumer())
-  }
-
-  override fun handleStates() {
-    viewModel.stateReceived().observe(this, Observer { state -> render(state) })
-  }
 
   override fun render(state: ChatRoomsState) {
     currentState = state

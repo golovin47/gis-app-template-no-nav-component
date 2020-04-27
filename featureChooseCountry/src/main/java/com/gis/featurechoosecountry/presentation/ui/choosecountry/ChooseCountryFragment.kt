@@ -21,6 +21,7 @@ import com.jakewharton.rxbinding2.widget.RxTextView
 import com.gis.featurechoosecountry.R
 import com.gis.featurechoosecountry.databinding.FragmentChooseCountryBinding
 import com.gis.featurechoosecountry.presentation.ui.choosecountry.ChooseCountryIntent.*
+import com.gis.utils.presentation.BaseMviFragment
 import io.reactivex.Observable
 import io.reactivex.disposables.Disposable
 import io.reactivex.subjects.PublishSubject
@@ -28,27 +29,21 @@ import org.koin.android.ext.android.inject
 import org.koin.androidx.viewmodel.ext.android.viewModel
 import java.util.concurrent.TimeUnit
 
-class ChooseCountryFragment : Fragment(), BaseView<ChooseCountryState> {
+class ChooseCountryFragment :
+  BaseMviFragment<ChooseCountryState, FragmentChooseCountryBinding, ChooseCountryViewModel>() {
 
-  private lateinit var intentsSubscription: Disposable
+  override val layoutId: Int = R.layout.fragment_choose_country
   private val intentsPublisher = PublishSubject.create<ChooseCountryIntent>()
-  private var binding: FragmentChooseCountryBinding? = null
-  private val viewModel: ChooseCountryViewModel by viewModel()
+  override val viewModel: ChooseCountryViewModel by viewModel()
 
-  override fun onCreate(savedInstanceState: Bundle?) {
-    super.onCreate(savedInstanceState)
-    handleStates()
-  }
-
-  override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-    initBinding(inflater, container)
+  override fun onCreateView(
+    inflater: LayoutInflater,
+    container: ViewGroup?,
+    savedInstanceState: Bundle?
+  ): View? {
+    super.onCreateView(inflater, container, savedInstanceState)
     initRvCountries()
-    initIntents()
     return binding!!.root
-  }
-
-  private fun initBinding(inflater: LayoutInflater, container: ViewGroup?) {
-    binding = DataBindingUtil.inflate(inflater, R.layout.fragment_choose_country, container, false)
   }
 
   private fun initRvCountries() {
@@ -60,14 +55,8 @@ class ChooseCountryFragment : Fragment(), BaseView<ChooseCountryState> {
     }
   }
 
-  override fun onDestroyView() {
-    binding = null
-    intentsSubscription.dispose()
-    super.onDestroyView()
-  }
-
-  override fun initIntents() {
-    intentsSubscription = Observable.merge(listOf(
+  override fun userIntents(): Observable<Any> =
+    Observable.merge(listOf(
 
       intentsPublisher,
 
@@ -84,15 +73,10 @@ class ChooseCountryFragment : Fragment(), BaseView<ChooseCountryState> {
         .doOnNext { binding!!.etSearchCountry.hideKeyboard() }
         .map { GoBack }
     ))
-      .subscribe(viewModel.viewIntentsConsumer())
-  }
-
-  override fun handleStates() {
-    viewModel.stateReceived().observe(this, Observer { state -> render(state) })
-  }
 
   override fun render(state: ChooseCountryState) {
-    binding!!.ivClearSearch.visibility = if (binding!!.etSearchCountry.text.isNotEmpty()) VISIBLE else INVISIBLE
+    binding!!.ivClearSearch.visibility =
+      if (binding!!.etSearchCountry.text.isNotEmpty()) VISIBLE else INVISIBLE
 
     (binding!!.rvCountries.adapter as ChooseCountryAdapter).submitList(
       if (state.searchCountries.isNotEmpty())

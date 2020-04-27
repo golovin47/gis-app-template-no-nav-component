@@ -4,30 +4,26 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.databinding.DataBindingUtil
-import androidx.fragment.app.Fragment
-import androidx.lifecycle.Observer
-import com.gis.utils.presentation.BackPressHandler
-import com.gis.utils.presentation.BaseView
 import com.gis.featuremainscreen.R
 import com.gis.featuremainscreen.databinding.FragmentMainScreenBinding
 import com.gis.featuremainscreen.navigation.MainScreenNavigator
 import com.gis.featuremainscreen.presentation.ui.mainscreen.MainScreenIntent.ChangeTab
 import com.gis.featuremainscreen.presentation.ui.mainscreen.MainTab.*
+import com.gis.utils.presentation.BackPressHandler
+import com.gis.utils.presentation.BaseMviFragment
 import io.reactivex.Observable
-import io.reactivex.disposables.Disposable
 import io.reactivex.subjects.PublishSubject
 import org.koin.android.ext.android.get
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
-class MainScreenFragment : Fragment(), BaseView<MainScreenState>,
+class MainScreenFragment :
+  BaseMviFragment<MainScreenState, FragmentMainScreenBinding, MainScreenViewModel>(),
   BackPressHandler {
 
-  private var currentState: MainScreenState? = null
-  private var binding: FragmentMainScreenBinding? = null
-  private val viewModel: MainScreenViewModel by viewModel()
+  override val layoutId: Int = R.layout.fragment_main_screen
+  override val viewModel: MainScreenViewModel by viewModel()
   private val intentsPublisher = PublishSubject.create<MainScreenIntent>()
-  private lateinit var intentsSubscription: Disposable
+  private var currentState: MainScreenState? = null
 
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
@@ -36,20 +32,16 @@ class MainScreenFragment : Fragment(), BaseView<MainScreenState>,
     } else {
       updateMainScreenNavigator()
     }
-    handleStates()
   }
 
-  override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-    initBinding(inflater, container)
+  override fun onCreateView(
+    inflater: LayoutInflater,
+    container: ViewGroup?,
+    savedInstanceState: Bundle?
+  ): View? {
+    super.onCreateView(inflater, container, savedInstanceState)
     initBottomNavView()
-    initIntents()
     return binding!!.root
-  }
-
-  override fun onDestroyView() {
-    binding = null
-    intentsSubscription.dispose()
-    super.onDestroyView()
   }
 
   private fun initMainScreenNavigator() {
@@ -62,10 +54,6 @@ class MainScreenFragment : Fragment(), BaseView<MainScreenState>,
   private fun updateMainScreenNavigator() {
     val mainScreenNavigator: MainScreenNavigator = get()
     mainScreenNavigator.setChildFragmentManager(childFragmentManager)
-  }
-
-  private fun initBinding(inflater: LayoutInflater, container: ViewGroup?) {
-    binding = DataBindingUtil.inflate(inflater, R.layout.fragment_main_screen, container, false)
   }
 
   private fun initBottomNavView() {
@@ -85,18 +73,12 @@ class MainScreenFragment : Fragment(), BaseView<MainScreenState>,
     }
   }
 
-  override fun initIntents() {
-    intentsSubscription = Observable.merge(
+  override fun userIntents(): Observable<Any> =
+    Observable.merge(
       listOf(
         intentsPublisher
       )
     )
-      .subscribe(viewModel.viewIntentsConsumer())
-  }
-
-  override fun handleStates() {
-    viewModel.stateReceived().observe(this, Observer { state -> render(state) })
-  }
 
   override fun render(state: MainScreenState) {
     currentState = state

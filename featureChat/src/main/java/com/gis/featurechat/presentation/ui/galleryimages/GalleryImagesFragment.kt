@@ -4,59 +4,41 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import androidx.databinding.DataBindingUtil
-import androidx.fragment.app.Fragment
-import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.gis.repository.domain.entity.ChatMessage.*
-import com.gis.repository.domain.entity.User
-import com.gis.utils.presentation.BaseView
-import com.gis.utils.domain.ImageLoader
-import com.google.android.material.snackbar.Snackbar
-import com.jakewharton.rxbinding2.view.RxView
 import com.gis.featurechat.R
 import com.gis.featurechat.databinding.FragmentGalleryImagesBinding
-import com.gis.featurechat.presentation.ui.galleryimages.GalleryImagesIntents.StartObserve
+import com.gis.featurechat.presentation.ui.galleryimages.GalleryImageListItem.GalleryImageItem
+import com.gis.featurechat.presentation.ui.galleryimages.GalleryImagesIntents.*
+import com.gis.repository.domain.entity.ChatMessage.ChatPhotoMessage
+import com.gis.utils.domain.ImageLoader
+import com.gis.utils.presentation.BaseMviFragment
+import com.google.android.material.snackbar.Snackbar
+import com.jakewharton.rxbinding2.view.RxView
 import io.reactivex.Observable
-import io.reactivex.disposables.Disposable
 import io.reactivex.subjects.PublishSubject
 import org.koin.android.ext.android.inject
 import org.koin.androidx.viewmodel.ext.android.viewModel
-import com.gis.featurechat.presentation.ui.galleryimages.GalleryImagesIntents.*
 import java.util.*
 import java.util.concurrent.TimeUnit
-import com.gis.featurechat.presentation.ui.galleryimages.GalleryImageListItem.*
 
-class GalleryImagesFragment : Fragment(), BaseView<GalleryImagesState> {
+class GalleryImagesFragment :
+  BaseMviFragment<GalleryImagesState, FragmentGalleryImagesBinding, GalleryImagesViewModel>() {
 
-  private lateinit var currentState: GalleryImagesState
-  private var binding: FragmentGalleryImagesBinding? = null
+  override val layoutId: Int = R.layout.fragment_gallery_images
   private val intentsPublisher = PublishSubject.create<GalleryImagesIntents>()
-  private lateinit var intentsSubscription: Disposable
-  private val viewModel: GalleryImagesViewModel by viewModel()
+  override val viewModel: GalleryImagesViewModel by viewModel()
   private val imageLoader: ImageLoader by inject()
+  private lateinit var currentState: GalleryImagesState
 
-  override fun onCreate(savedInstanceState: Bundle?) {
-    super.onCreate(savedInstanceState)
-    handleStates()
-  }
-
-  override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-    initBinding(inflater, container)
+  override fun onCreateView(
+    inflater: LayoutInflater,
+    container: ViewGroup?,
+    savedInstanceState: Bundle?
+  ): View? {
+    super.onCreateView(inflater, container, savedInstanceState)
     initRecyclerView()
-    initIntents()
     return binding!!.root
-  }
-
-  override fun onDestroyView() {
-    binding = null
-    intentsSubscription.dispose()
-    super.onDestroyView()
-  }
-
-  private fun initBinding(inflater: LayoutInflater, container: ViewGroup?) {
-    binding = DataBindingUtil.inflate(inflater, R.layout.fragment_gallery_images, container, false)
   }
 
   private fun initRecyclerView() {
@@ -67,8 +49,8 @@ class GalleryImagesFragment : Fragment(), BaseView<GalleryImagesState> {
     }
   }
 
-  override fun initIntents() {
-    intentsSubscription = Observable.merge(
+  override fun userIntents(): Observable<Any> =
+    Observable.merge(
       listOf(
         Observable.just(StartObserve),
 
@@ -88,12 +70,6 @@ class GalleryImagesFragment : Fragment(), BaseView<GalleryImagesState> {
           .map { Cancel }
       )
     )
-      .subscribe(viewModel.viewIntentsConsumer())
-  }
-
-  override fun handleStates() {
-    viewModel.stateReceived().observe(this, Observer { state -> render(state) })
-  }
 
   private fun listItemToChatPhotoMessage(listItems: List<GalleryImageListItem>) =
     listItems

@@ -12,27 +12,24 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.core.content.ContextCompat
 import androidx.databinding.DataBindingUtil
-import androidx.fragment.app.Fragment
-import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import androidx.transition.TransitionManager
-import com.gis.repository.domain.entity.ChatMessage.ChatFileMessage
-import com.gis.repository.domain.entity.ChatMessage.ChatTextMessage
-import com.gis.utils.presentation.BaseView
-import com.gis.utils.domain.ImageLoader
-import com.gis.utils.getFileNameAndSize
-import com.google.android.material.snackbar.Snackbar
-import com.jakewharton.rxbinding2.view.RxView
-import com.jakewharton.rxbinding2.widget.RxTextView
 import com.gis.featurechat.R
 import com.gis.featurechat.databinding.FragmentConversationBinding
 import com.gis.featurechat.presentation.ui.conversation.ConversationIntent.*
 import com.gis.featurechat.presentation.ui.conversation.GifListItem.GifLoadingItem
 import com.gis.featurechat.presentation.ui.conversation.GifListItem.GifSearchEmptyItem
+import com.gis.repository.domain.entity.ChatMessage.ChatFileMessage
+import com.gis.repository.domain.entity.ChatMessage.ChatTextMessage
+import com.gis.utils.domain.ImageLoader
+import com.gis.utils.getFileNameAndSize
+import com.gis.utils.presentation.BaseMviFragment
+import com.google.android.material.snackbar.Snackbar
+import com.jakewharton.rxbinding2.view.RxView
+import com.jakewharton.rxbinding2.widget.RxTextView
 import io.reactivex.Observable
 import io.reactivex.android.schedulers.AndroidSchedulers
-import io.reactivex.disposables.Disposable
 import io.reactivex.subjects.PublishSubject
 import org.koin.android.ext.android.inject
 import org.koin.androidx.viewmodel.ext.android.viewModel
@@ -44,14 +41,14 @@ private const val GALLERY_PERMISSIONS_REQUEST = 0x098
 private const val CAMERA_PHOTO_REQUEST = 0x097
 private const val PICK_FILE_REQUEST = 0x096
 
-class ConversationFragment : Fragment(), BaseView<ConversationState> {
+class ConversationFragment :
+  BaseMviFragment<ConversationState, FragmentConversationBinding, ConversationViewModel>() {
 
-  private lateinit var currentState: ConversationState
-  private var binding: FragmentConversationBinding? = null
+  override val layoutId: Int = R.layout.fragment_conversation
   private var intentsPublisher = PublishSubject.create<ConversationIntent>()
-  private lateinit var intentsSubscription: Disposable
-  private val viewModel: ConversationViewModel by viewModel()
+  override val viewModel: ConversationViewModel by viewModel()
   private val imageLoader: ImageLoader by inject()
+  private lateinit var currentState: ConversationState
 
   companion object {
     fun getInstance(chatId: Int) =
@@ -62,23 +59,15 @@ class ConversationFragment : Fragment(), BaseView<ConversationState> {
       }
   }
 
-  override fun onCreate(savedInstanceState: Bundle?) {
-    super.onCreate(savedInstanceState)
-    handleStates()
-  }
-
-  override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-    initBinding(inflater, container)
+  override fun onCreateView(
+    inflater: LayoutInflater,
+    container: ViewGroup?,
+    savedInstanceState: Bundle?
+  ): View? {
+    super.onCreateView(inflater, container, savedInstanceState)
     initMessagesList()
     initGifsList()
-    initIntents()
     return binding!!.root
-  }
-
-  override fun onDestroyView() {
-    binding = null
-    intentsSubscription.dispose()
-    super.onDestroyView()
   }
 
   override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
@@ -110,7 +99,11 @@ class ConversationFragment : Fragment(), BaseView<ConversationState> {
     }
   }
 
-  override fun onRequestPermissionsResult(requestCode: Int, permissions: Array<out String>, grantResults: IntArray) {
+  override fun onRequestPermissionsResult(
+    requestCode: Int,
+    permissions: Array<out String>,
+    grantResults: IntArray
+  ) {
     if (requestCode == GALLERY_PERMISSIONS_REQUEST)
       if (grantResults.isNotEmpty())
         if (grantResults[0] == PackageManager.PERMISSION_GRANTED)
@@ -169,8 +162,8 @@ class ConversationFragment : Fragment(), BaseView<ConversationState> {
     }
   }
 
-  override fun initIntents() {
-    intentsSubscription = Observable.merge(
+  override fun userIntents(): Observable<Any> =
+    Observable.merge(
       listOf(
 
         intentsPublisher,
@@ -221,12 +214,6 @@ class ConversationFragment : Fragment(), BaseView<ConversationState> {
           .doOnNext { binding!!.etTextMessage.text.clear() }
       )
     )
-      .subscribe(viewModel.viewIntentsConsumer())
-  }
-
-  override fun handleStates() {
-    viewModel.stateReceived().observe(this, Observer { state -> render(state) })
-  }
 
   private fun cameraPermissionsGranted(): Boolean =
     (ContextCompat.checkSelfPermission(context!!, Manifest.permission.WRITE_EXTERNAL_STORAGE)
@@ -294,7 +281,7 @@ class ConversationFragment : Fragment(), BaseView<ConversationState> {
       binding!!.gifBottomGuideline.setGuidelinePercent(1.2f)
     }
 
-    with(binding!!.rvGifs.adapter as GifsAdapter){
+    with(binding!!.rvGifs.adapter as GifsAdapter) {
       submitList(if (state.gifsSearch.isEmpty()) state.gifs else state.gifsSearch)
       user = state.author
     }

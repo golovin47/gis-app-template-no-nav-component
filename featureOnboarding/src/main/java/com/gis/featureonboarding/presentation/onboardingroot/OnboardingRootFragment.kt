@@ -19,15 +19,16 @@ import io.reactivex.subjects.PublishSubject
 import org.koin.android.ext.android.get
 import org.koin.androidx.viewmodel.ext.android.viewModel
 import com.gis.featureonboarding.presentation.onboardingroot.OnboardingRootIntent.*
+import com.gis.utils.presentation.BaseMviFragment
 import org.koin.core.qualifier.named
 
-class OnboardingRootFragment : Fragment(), BaseView<OnboardingRootState> {
+class OnboardingRootFragment :
+  BaseMviFragment<OnboardingRootState, FragmentOnboardingRootBinding, OnboardingRootViewModel>() {
 
-  private var binding: FragmentOnboardingRootBinding? = null
-  private lateinit var currentState: OnboardingRootState
-  private lateinit var intentsSubscription: Disposable
+  override val layoutId: Int = R.layout.fragment_onboarding_root
   private val intentsPublisher = PublishSubject.create<OnboardingRootIntent>()
-  private val viewModel: OnboardingRootViewModel by viewModel()
+  override val viewModel: OnboardingRootViewModel by viewModel()
+  private lateinit var currentState: OnboardingRootState
 
   private lateinit var firstPage: AnimationPage
   private lateinit var secondPage: AnimationPage
@@ -44,32 +45,29 @@ class OnboardingRootFragment : Fragment(), BaseView<OnboardingRootState> {
       }
   }
 
-  override fun onCreate(savedInstanceState: Bundle?) {
-    super.onCreate(savedInstanceState)
-    handleStates()
-  }
-
-  override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-    initBinding(inflater, container)
+  override fun onCreateView(
+    inflater: LayoutInflater,
+    container: ViewGroup?,
+    savedInstanceState: Bundle?
+  ): View? {
+    super.onCreateView(inflater, container, savedInstanceState)
     initOnboardingNavigator()
     initPages()
     initOnboardingViewPager()
-    initIntents()
     return binding!!.root
   }
 
-  private fun initBinding(inflater: LayoutInflater, container: ViewGroup?) {
-    binding = DataBindingUtil.inflate(inflater, R.layout.fragment_onboarding_root, container, false)
-  }
-
   private fun initOnboardingNavigator() {
-    get<(FragmentManager) -> Unit>(named("setOnboardingChildFragmentManager")).invoke(childFragmentManager)
+    get<(FragmentManager) -> Unit>(named("setOnboardingChildFragmentManager")).invoke(
+      childFragmentManager
+    )
   }
 
   private fun initPages() {
     firstPage = get(named("getFirstOnboardingPage"))
     secondPage = get(named("getSecondOnboardingPage"))
-    thirdPage = get<(Boolean) -> AnimationPage>(named("getThirdOnboardingPage")).invoke(showGotItButton)
+    thirdPage =
+      get<(Boolean) -> AnimationPage>(named("getThirdOnboardingPage")).invoke(showGotItButton)
   }
 
   private fun initOnboardingViewPager() {
@@ -83,7 +81,12 @@ class OnboardingRootFragment : Fragment(), BaseView<OnboardingRootState> {
     binding!!.vpOnboarding.addOnPageChangeListener(object : ViewPager.OnPageChangeListener {
       override fun onPageScrollStateChanged(state: Int) {}
 
-      override fun onPageScrolled(position: Int, positionOffset: Float, positionOffsetPixels: Int) {}
+      override fun onPageScrolled(
+        position: Int,
+        positionOffset: Float,
+        positionOffsetPixels: Int
+      ) {
+      }
 
       override fun onPageSelected(position: Int) {
         if (this@OnboardingRootFragment::currentState.isInitialized && position != currentState.curPage) {
@@ -98,18 +101,12 @@ class OnboardingRootFragment : Fragment(), BaseView<OnboardingRootState> {
     })
   }
 
-  override fun initIntents() {
-    intentsSubscription = Observable.merge(
+  override fun userIntents(): Observable<Any> =
+    Observable.merge(
       listOf(
         intentsPublisher
       )
     )
-      .subscribe(viewModel.viewIntentsConsumer())
-  }
-
-  override fun handleStates() {
-    viewModel.stateReceived().observe(this, Observer { state -> render(state) })
-  }
 
   override fun render(state: OnboardingRootState) {
     currentState = state
