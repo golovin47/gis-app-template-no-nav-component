@@ -1,0 +1,8 @@
+<resources>
+  <string name="app_name">Onboarding</string>
+
+  <string name="first_page_title">First onboarding page</string>
+  <string name="second_page_title">Second onboarding page</string>
+  <string name="third_page_title">Third onboarding page</string>
+  <string name="got_it">Got It</string>
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools">
+
+  <androidx.constraintlayout.widget.ConstraintLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:animateLayoutChanges="true"
+      android:background="@android:color/black">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tbGalleryImages"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_height"
+        android:background="@color/colorPrimary"
+        app:title="@string/choose_images"
+        app:titleTextColor="@android:color/white"
+        app:titleMarginStart="@dimen/tb_title_start_margin"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/tvCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:text="@string/cancel"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintTop_toTopOf="@id/ivSend"
+        app:layout_constraintBottom_toBottomOf="@id/ivSend"
+        app:layout_constraintEnd_toStartOf="@id/ivSend"/>
+
+    <TextView
+        android:id="@+id/tvCounter"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:background="@drawable/shape_circle"
+        android:backgroundTint="@color/colorAccent"
+        android:textColor="@android:color/white"
+        android:textSize="12dp"
+        android:gravity="center"
+        android:visibility="gone"
+        app:layout_constraintStart_toEndOf="@id/ivSend"
+        app:layout_constraintEnd_toEndOf="@id/ivSend"
+        app:layout_constraintTop_toTopOf="@id/ivSend"
+        app:layout_constraintBottom_toTopOf="@id/ivSend"
+        tools:text="10"
+        tools:visibility="visible"/>
+
+    <ImageView
+        android:id="@+id/ivSend"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:padding="4dp"
+        android:src="@drawable/ic_send"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="@id/tbGalleryImages"
+        app:layout_constraintTop_toTopOf="@id/tbGalleryImages"
+        app:layout_constraintBottom_toBottomOf="@id/tbGalleryImages"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvGalleryImages"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:overScrollMode="never"
+        app:layout_constraintTop_toBottomOf="@id/tbGalleryImages"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+  </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

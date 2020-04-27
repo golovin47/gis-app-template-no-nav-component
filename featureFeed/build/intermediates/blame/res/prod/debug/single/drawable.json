@@ -1,0 +1,1226 @@
+[
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/tw__login_btn_pressed.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/1fafb7c0de23454761e1b3290545473a/res/drawable/tw__login_btn_pressed.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_croatia.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_croatia.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_nigeria.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_nigeria.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_philippines.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_philippines.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/common_google_signin_btn_text_light_normal.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/4167d69a428fc3224c9c4a38f8d747f7/res/drawable/common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/common_google_signin_btn_icon_disabled.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/4167d69a428fc3224c9c4a38f8d747f7/res/drawable/common_google_signin_btn_icon_disabled.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_bulgaria.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_bulgaria.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/tooltip_frame_light.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/ce12b8c890e95d464d6ad90c2d56d379/res/drawable/tooltip_frame_light.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_armenia.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_armenia.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/abc_btn_borderless_material.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/ce12b8c890e95d464d6ad90c2d56d379/res/drawable/abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/btn_radio_on_to_off_mtrl_animation.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/ce12b8c890e95d464d6ad90c2d56d379/res/drawable/btn_radio_on_to_off_mtrl_animation.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_solomon_islands.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_solomon_islands.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/common_google_signin_btn_icon_light_normal.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/4167d69a428fc3224c9c4a38f8d747f7/res/drawable/common_google_signin_btn_icon_light_normal.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_benin.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_benin.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/btn_radio_off_to_on_mtrl_animation.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/ce12b8c890e95d464d6ad90c2d56d379/res/drawable/btn_radio_off_to_on_mtrl_animation.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_lithuania.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_lithuania.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/abc_seekbar_tick_mark_material.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/ce12b8c890e95d464d6ad90c2d56d379/res/drawable/abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_tanzania.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_tanzania.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/btn_checkbox_checked_mtrl.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/ce12b8c890e95d464d6ad90c2d56d379/res/drawable/btn_checkbox_checked_mtrl.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/notification_icon_background.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/cc3162c3946a38e54a358894371c4280/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/ic_search.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/ic_search.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/abc_text_cursor_material.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/ce12b8c890e95d464d6ad90c2d56d379/res/drawable/abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_hungary.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_hungary.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_zimbabwe.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_zimbabwe.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_lebanon.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_lebanon.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/ic_arrow_back.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/ic_arrow_back.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_tajikistan.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_tajikistan.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_san_marino.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_san_marino.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_botswana.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_botswana.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/shape_circle_stroke.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/shape_circle_stroke.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/notification_bg_low.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/cc3162c3946a38e54a358894371c4280/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_cote_d_27ivoire.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_cote_d_27ivoire.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/mtrl_ic_cancel.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/bccafa60b28f43ba8c1927f0830f8b70/res/drawable/mtrl_ic_cancel.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_chad.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_chad.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_malaysia.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_malaysia.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_bolivia.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_bolivia.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_estonia.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_estonia.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/com_facebook_button_like_background.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/e53a2f299dffc37859d7fe8c9c2b5fa9/res/drawable/com_facebook_button_like_background.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/mtrl_dialog_background.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/bccafa60b28f43ba8c1927f0830f8b70/res/drawable/mtrl_dialog_background.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_ecuador.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_ecuador.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_guinea_bissau.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_guinea_bissau.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_bangladesh.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_bangladesh.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_serbia.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_serbia.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/ic_check.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/ic_check.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_cyprus.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_cyprus.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_kuwait.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_kuwait.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_kiribati.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_kiribati.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/abc_ic_search_api_material.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/ce12b8c890e95d464d6ad90c2d56d379/res/drawable/abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_cameroon.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_cameroon.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_turkmenistan.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_turkmenistan.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/design_snackbar_background.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/bccafa60b28f43ba8c1927f0830f8b70/res/drawable/design_snackbar_background.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_slovenia.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_slovenia.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_comoros.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_comoros.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/btn_checkbox_unchecked_to_checked_mtrl_animation.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/ce12b8c890e95d464d6ad90c2d56d379/res/drawable/btn_checkbox_unchecked_to_checked_mtrl_animation.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_togo.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_togo.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_czech_republic.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_czech_republic.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_algeria.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_algeria.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_tunisia.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_tunisia.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_uzbekistan.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_uzbekistan.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_cape_verde.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_cape_verde.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/ce12b8c890e95d464d6ad90c2d56d379/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/com_facebook_button_send_background.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/e53a2f299dffc37859d7fe8c9c2b5fa9/res/drawable/com_facebook_button_send_background.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_malawi.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_malawi.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_somalia.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_somalia.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/ce12b8c890e95d464d6ad90c2d56d379/res/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/ic_gif.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/ic_gif.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_china.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_china.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/btn_radio_on_mtrl.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/ce12b8c890e95d464d6ad90c2d56d379/res/drawable/btn_radio_on_mtrl.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_barbados.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_barbados.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_monaco.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_monaco.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_sri_lanka.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_sri_lanka.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/abc_switch_thumb_material.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/ce12b8c890e95d464d6ad90c2d56d379/res/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/abc_ratingbar_indicator_material.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/ce12b8c890e95d464d6ad90c2d56d379/res/drawable/abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_dominica.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_dominica.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/ic_mtrl_chip_checked_black.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/bccafa60b28f43ba8c1927f0830f8b70/res/drawable/ic_mtrl_chip_checked_black.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_sweden.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_sweden.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_saint_lucia.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_saint_lucia.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/abc_seekbar_track_material.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/ce12b8c890e95d464d6ad90c2d56d379/res/drawable/abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_rwanda.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_rwanda.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_swaziland.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_swaziland.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_vanuatu.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_vanuatu.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/tooltip_frame_dark.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/ce12b8c890e95d464d6ad90c2d56d379/res/drawable/tooltip_frame_dark.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/common_google_signin_btn_text_light_focused.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/4167d69a428fc3224c9c4a38f8d747f7/res/drawable/common_google_signin_btn_text_light_focused.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/ic_sad_face.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/ic_sad_face.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_bahamas.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_bahamas.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_singapore.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_singapore.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_honduras.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_honduras.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/design_fab_background.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/bccafa60b28f43ba8c1927f0830f8b70/res/drawable/design_fab_background.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/ce12b8c890e95d464d6ad90c2d56d379/res/drawable/abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/shape_others_message.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/shape_others_message.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_nauru.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_nauru.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_burkina_faso.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_burkina_faso.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/navigation_empty_icon.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/bccafa60b28f43ba8c1927f0830f8b70/res/drawable/navigation_empty_icon.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_austria.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_austria.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_samoa.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_samoa.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/abc_list_selector_holo_light.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/ce12b8c890e95d464d6ad90c2d56d379/res/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/shape_message.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/shape_message.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/abc_ic_voice_search_api_material.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/ce12b8c890e95d464d6ad90c2d56d379/res/drawable/abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_iceland.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_iceland.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_el_salvador.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_el_salvador.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_belgium.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_belgium.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_iraq.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_iraq.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/ce12b8c890e95d464d6ad90c2d56d379/res/drawable/abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_congo.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_congo.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/ce12b8c890e95d464d6ad90c2d56d379/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/ic_menu_arrow_down_black_24dp.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/bccafa60b28f43ba8c1927f0830f8b70/res/drawable/ic_menu_arrow_down_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/abc_btn_check_material_anim.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/ce12b8c890e95d464d6ad90c2d56d379/res/drawable/abc_btn_check_material_anim.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_mexico.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_mexico.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_north_korea.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_north_korea.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/ic_send.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/ic_send.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_panama.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_panama.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_france.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_france.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_turkey.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_turkey.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/messenger_button_blue_bg_round.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/e53a2f299dffc37859d7fe8c9c2b5fa9/res/drawable/messenger_button_blue_bg_round.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/ic_android.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/ic_android.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_gambia.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_gambia.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_greenland.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_greenland.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_spain.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_spain.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_djibouti.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_djibouti.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_germany.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_germany.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_palau.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_palau.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_bhutan.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_bhutan.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_norway.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_norway.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_nepal.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_nepal.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_qatar.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_qatar.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_antigua_and_barbuda.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_antigua_and_barbuda.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_greece.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_greece.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_burundi.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_burundi.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_luxembourg.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_luxembourg.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_uruguay.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_uruguay.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_mozambique.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_mozambique.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/ic_mtrl_chip_checked_circle.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/bccafa60b28f43ba8c1927f0830f8b70/res/drawable/ic_mtrl_chip_checked_circle.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_united_arab_emirates.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_united_arab_emirates.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_brazil.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_brazil.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_sierra_leone.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_sierra_leone.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_latvia.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_latvia.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/abc_tab_indicator_material.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/ce12b8c890e95d464d6ad90c2d56d379/res/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_argentina.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_argentina.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_malta.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_malta.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_east_timor.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_east_timor.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/ic_create.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/ic_create.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/ic_keyboard_arrow_right_black_24dp.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/bccafa60b28f43ba8c1927f0830f8b70/res/drawable/ic_keyboard_arrow_right_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_papua_new_guinea.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_papua_new_guinea.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/messenger_button_white_bg_round.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/e53a2f299dffc37859d7fe8c9c2b5fa9/res/drawable/messenger_button_white_bg_round.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_south_sudan.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_south_sudan.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_poland.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_poland.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_libya.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_libya.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/ic_photo_camera.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/ic_photo_camera.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/com_facebook_button_login_silver_background.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/e53a2f299dffc37859d7fe8c9c2b5fa9/res/drawable/com_facebook_button_login_silver_background.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_slovakia.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_slovakia.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_ethiopia.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_ethiopia.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_bosnia_and_herzegovina.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_bosnia_and_herzegovina.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_morocco.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_morocco.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_montenegro.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_montenegro.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_new_zealand.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_new_zealand.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/notification_bg.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/cc3162c3946a38e54a358894371c4280/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_bahrain.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_bahrain.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_marshall_islands.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_marshall_islands.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_japan.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_japan.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_georgia.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_georgia.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/mtrl_tabs_default_indicator.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/bccafa60b28f43ba8c1927f0830f8b70/res/drawable/mtrl_tabs_default_indicator.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/abc_btn_check_material.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/ce12b8c890e95d464d6ad90c2d56d379/res/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/notification_tile_bg.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/cc3162c3946a38e54a358894371c4280/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_thailand.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_thailand.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_paraguay.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_paraguay.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_denmark.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_denmark.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_lesotho.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_lesotho.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_brunei.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_brunei.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_saint_vincent_and_the_grenadines.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_saint_vincent_and_the_grenadines.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_netherlands.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_netherlands.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_canada.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_canada.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_syria.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_syria.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/abc_ic_menu_overflow_material.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/ce12b8c890e95d464d6ad90c2d56d379/res/drawable/abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/abc_btn_radio_material.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/ce12b8c890e95d464d6ad90c2d56d379/res/drawable/abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/ic_menu_arrow_up_black_24dp.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/bccafa60b28f43ba8c1927f0830f8b70/res/drawable/ic_menu_arrow_up_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/shape_circle.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/shape_circle.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/abc_ratingbar_small_material.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/ce12b8c890e95d464d6ad90c2d56d379/res/drawable/abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_fiji.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_fiji.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_portugal.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_portugal.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_south_korea.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_south_korea.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_saudi_arabia.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_saudi_arabia.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/abc_textfield_search_material.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/ce12b8c890e95d464d6ad90c2d56d379/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/mtrl_ic_arrow_drop_up.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/bccafa60b28f43ba8c1927f0830f8b70/res/drawable/mtrl_ic_arrow_drop_up.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_italy.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_italy.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/ic_attach_file.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/ic_attach_file.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_senegal.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_senegal.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_equatorial_guinea.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_equatorial_guinea.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/ic_close.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/ic_close.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/tw__login_btn_disabled.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/1fafb7c0de23454761e1b3290545473a/res/drawable/tw__login_btn_disabled.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_finland.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_finland.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/btn_checkbox_unchecked_mtrl.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/ce12b8c890e95d464d6ad90c2d56d379/res/drawable/btn_checkbox_unchecked_mtrl.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_uganda.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_uganda.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_nicaragua.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_nicaragua.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_maldives.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_maldives.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_australia.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_australia.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/ic_mtrl_chip_close_circle.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/bccafa60b28f43ba8c1927f0830f8b70/res/drawable/ic_mtrl_chip_close_circle.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/mtrl_dropdown_arrow.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/bccafa60b28f43ba8c1927f0830f8b70/res/drawable/mtrl_dropdown_arrow.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_switzerland.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_switzerland.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_kenya.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_kenya.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_guatemala.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_guatemala.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/tw__login_btn.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/1fafb7c0de23454761e1b3290545473a/res/drawable/tw__login_btn.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_saint_kitts_and_nevis.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_saint_kitts_and_nevis.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/messenger_button_white_bg_selector.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/e53a2f299dffc37859d7fe8c9c2b5fa9/res/drawable/messenger_button_white_bg_selector.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_yemen.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_yemen.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/btn_checkbox_checked_to_unchecked_mtrl_animation.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/ce12b8c890e95d464d6ad90c2d56d379/res/drawable/btn_checkbox_checked_to_unchecked_mtrl_animation.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/ce12b8c890e95d464d6ad90c2d56d379/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/abc_seekbar_thumb_material.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/ce12b8c890e95d464d6ad90c2d56d379/res/drawable/abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/bg_et_sms_code.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/utils/build/intermediates/packaged_res/prod/debug/drawable/bg_et_sms_code.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_egypt.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_egypt.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/4167d69a428fc3224c9c4a38f8d747f7/res/drawable/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_oman.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_oman.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_united_states.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_united_states.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_chile.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_chile.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_gabon.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_gabon.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_russia.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_russia.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/shape_round_corners.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/shape_round_corners.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_albania.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_albania.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/common_google_signin_btn_text_dark_focused.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/4167d69a428fc3224c9c4a38f8d747f7/res/drawable/common_google_signin_btn_text_dark_focused.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/ic_arrow_drop_down.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/ic_arrow_drop_down.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_laos.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_laos.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_vatican_city.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_vatican_city.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/abc_cab_background_top_material.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/ce12b8c890e95d464d6ad90c2d56d379/res/drawable/abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_venezuela.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_venezuela.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/abc_item_background_holo_dark.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/ce12b8c890e95d464d6ad90c2d56d379/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/common_google_signin_btn_icon_light.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/4167d69a428fc3224c9c4a38f8d747f7/res/drawable/common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_liechtenstein.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_liechtenstein.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_ireland.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_ireland.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/abc_btn_radio_material_anim.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/ce12b8c890e95d464d6ad90c2d56d379/res/drawable/abc_btn_radio_material_anim.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_south_africa.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_south_africa.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_central_african_republic.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_central_african_republic.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_liberia.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_liberia.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_costa_rica.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_costa_rica.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_mauritania.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_mauritania.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_republic_of_china.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_republic_of_china.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_afghanistan.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_afghanistan.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/abc_item_background_holo_light.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/ce12b8c890e95d464d6ad90c2d56d379/res/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_sao_tome_and_principe.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_sao_tome_and_principe.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_cambodia.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_cambodia.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/messenger_button_blue_bg_selector.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/e53a2f299dffc37859d7fe8c9c2b5fa9/res/drawable/messenger_button_blue_bg_selector.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_pakistan.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_pakistan.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/shape_own_message.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/shape_own_message.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/common_google_signin_btn_icon_dark_focused.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/4167d69a428fc3224c9c4a38f8d747f7/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_moldova.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_moldova.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_seychelles.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_seychelles.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_myanmar.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_myanmar.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_kyrgyzstan.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_kyrgyzstan.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_india.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_india.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_angola.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_angola.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_belarus.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_belarus.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_guinea.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_guinea.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_haiti.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_haiti.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/ic_clear.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/ic_clear.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/common_google_signin_btn_text_light.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/4167d69a428fc3224c9c4a38f8d747f7/res/drawable/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/com_facebook_button_background.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/e53a2f299dffc37859d7fe8c9c2b5fa9/res/drawable/com_facebook_button_background.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_cuba.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_cuba.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/ic_mtrl_checked_circle.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/bccafa60b28f43ba8c1927f0830f8b70/res/drawable/ic_mtrl_checked_circle.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_jordan.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_jordan.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_iran.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_iran.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_colombia.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_colombia.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/test_custom_background.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/bccafa60b28f43ba8c1927f0830f8b70/res/drawable/test_custom_background.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_andorra.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_andorra.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/common_google_signin_btn_icon_dark.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/4167d69a428fc3224c9c4a38f8d747f7/res/drawable/common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_peru.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_peru.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_suriname.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_suriname.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_jamaica.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_jamaica.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/abc_ic_clear_material.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/ce12b8c890e95d464d6ad90c2d56d379/res/drawable/abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_guyana.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_guyana.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_zambia.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_zambia.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_tonga.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_tonga.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_united_kingdom.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_united_kingdom.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_ghana.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_ghana.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/ic_error.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/ic_error.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_namibia.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_namibia.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_sudan.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_sudan.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/abc_ic_ab_back_material.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/ce12b8c890e95d464d6ad90c2d56d379/res/drawable/abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/ic_gallery.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/ic_gallery.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/tw__login_btn_default.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/1fafb7c0de23454761e1b3290545473a/res/drawable/tw__login_btn_default.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/common_google_signin_btn_text_disabled.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/4167d69a428fc3224c9c4a38f8d747f7/res/drawable/common_google_signin_btn_text_disabled.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/mtrl_ic_arrow_drop_down.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/bccafa60b28f43ba8c1927f0830f8b70/res/drawable/mtrl_ic_arrow_drop_down.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_azerbaijan.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_azerbaijan.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_trinidad_and_tobago.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_trinidad_and_tobago.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/abc_ratingbar_material.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/ce12b8c890e95d464d6ad90c2d56d379/res/drawable/abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/btn_radio_off_mtrl.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/ce12b8c890e95d464d6ad90c2d56d379/res/drawable/btn_radio_off_mtrl.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_indonesia.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_indonesia.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_mongolia.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_mongolia.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_belize.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_belize.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/common_google_signin_btn_text_dark_normal.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/4167d69a428fc3224c9c4a38f8d747f7/res/drawable/common_google_signin_btn_text_dark_normal.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_dominican_republic.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_dominican_republic.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/abc_vector_test.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/62c2e46e8a1994fb83257932e2e573d3/res/drawable/abc_vector_test.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_mauritius.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_mauritius.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_ukraine.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_ukraine.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_mali.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_mali.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/ce12b8c890e95d464d6ad90c2d56d379/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_eritrea.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_eritrea.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_macedonia.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_macedonia.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_vietnam.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_vietnam.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_kazakhstan.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_kazakhstan.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_grenada.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_grenada.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_romania.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_romania.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/common_google_signin_btn_icon_dark_normal.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/4167d69a428fc3224c9c4a38f8d747f7/res/drawable/common_google_signin_btn_icon_dark_normal.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/common_google_signin_btn_icon_light_focused.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/4167d69a428fc3224c9c4a38f8d747f7/res/drawable/common_google_signin_btn_icon_light_focused.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_israel.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_israel.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/abc_ic_go_search_api_material.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/ce12b8c890e95d464d6ad90c2d56d379/res/drawable/abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/ic_keyboard_arrow_left_black_24dp.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/bccafa60b28f43ba8c1927f0830f8b70/res/drawable/ic_keyboard_arrow_left_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_madagascar.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_madagascar.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable/flag_of_niger.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/repository/build/intermediates/packaged_res/prod/debug/drawable/flag_of_niger.xml"
+    }
+]

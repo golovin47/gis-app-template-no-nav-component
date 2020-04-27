@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/ce12b8c890e95d464d6ad90c2d56d379/res/values-port/values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/incremental/mergeProdDebugResources/merged.dir/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/ce12b8c890e95d464d6ad90c2d56d379/res/values-port/values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        }
+    ]
+}

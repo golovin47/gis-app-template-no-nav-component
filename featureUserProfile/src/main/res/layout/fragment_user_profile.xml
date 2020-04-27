@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools">
+
+  <androidx.coordinatorlayout.widget.CoordinatorLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.core.widget.NestedScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+      <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+          android:id="@+id/tvUsernameTitle"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:paddingStart="16dp"
+          android:paddingTop="8dp"
+          android:paddingEnd="16dp"
+          android:text="@string/username"
+          android:textSize="12dp"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+          android:id="@+id/tvUsername"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="?attr/selectableItemBackground"
+          android:paddingStart="16dp"
+          android:paddingTop="24dp"
+          android:paddingEnd="16dp"
+          android:paddingBottom="8dp"
+          android:textColor="@android:color/black"
+          android:textSize="16dp"
+          app:layout_constraintTop_toTopOf="@id/tvUsernameTitle"
+          tools:text="Ivan Golovin" />
+
+        <View
+          android:id="@+id/dividerOne"
+          android:layout_width="match_parent"
+          android:layout_height="1px"
+          android:layout_marginStart="16dp"
+          android:layout_marginEnd="16dp"
+          android:background="@android:color/darker_gray"
+          app:layout_constraintTop_toBottomOf="@id/tvUsername" />
+
+        <TextView
+          android:id="@+id/tvEmailTitle"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:paddingStart="16dp"
+          android:paddingTop="8dp"
+          android:paddingEnd="16dp"
+          android:text="@string/email"
+          android:textSize="12dp"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@id/dividerOne" />
+
+        <TextView
+          android:id="@+id/tvEmail"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="?attr/selectableItemBackground"
+          android:paddingStart="16dp"
+          android:paddingTop="24dp"
+          android:paddingEnd="16dp"
+          android:paddingBottom="8dp"
+          android:textColor="@android:color/black"
+          android:textSize="16dp"
+          app:layout_constraintTop_toTopOf="@id/tvEmailTitle"
+          tools:text="golovinivans@gmail.com" />
+
+        <View
+          android:id="@+id/dividerTwo"
+          android:layout_width="match_parent"
+          android:layout_height="1px"
+          android:layout_marginStart="16dp"
+          android:layout_marginEnd="16dp"
+          android:background="@android:color/darker_gray"
+          app:layout_constraintTop_toBottomOf="@id/tvEmail" />
+
+        <TextView
+          android:id="@+id/tvPhoneTitle"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:paddingStart="16dp"
+          android:paddingTop="8dp"
+          android:paddingEnd="16dp"
+          android:text="@string/phone"
+          android:textSize="12dp"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@id/dividerTwo" />
+
+        <TextView
+          android:id="@+id/tvPhone"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="?attr/selectableItemBackground"
+          android:paddingStart="16dp"
+          android:paddingTop="24dp"
+          android:paddingEnd="16dp"
+          android:paddingBottom="8dp"
+          android:textColor="@android:color/black"
+          android:textSize="16dp"
+          app:layout_constraintTop_toTopOf="@id/tvPhoneTitle"
+          tools:text="+79788113361" />
+
+        <View
+          android:id="@+id/dividerThree"
+          android:layout_width="match_parent"
+          android:layout_height="1px"
+          android:layout_marginStart="16dp"
+          android:layout_marginEnd="16dp"
+          android:background="@android:color/darker_gray"
+          app:layout_constraintTop_toBottomOf="@id/tvPhone" />
+
+        <TextView
+          android:id="@+id/tvBirthDateTitle"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:paddingStart="16dp"
+          android:paddingTop="8dp"
+          android:paddingEnd="16dp"
+          android:text="@string/birthdate"
+          android:textSize="12dp"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@id/tvPhone" />
+
+        <TextView
+          android:id="@+id/tvBirthdate"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="?attr/selectableItemBackground"
+          android:paddingStart="16dp"
+          android:paddingTop="24dp"
+          android:paddingEnd="16dp"
+          android:paddingBottom="8dp"
+          android:textColor="@android:color/black"
+          android:textSize="16dp"
+          app:layout_constraintTop_toTopOf="@id/tvBirthDateTitle"
+          tools:text="08.05.1990" />
+
+        <View
+          android:id="@+id/dividerFour"
+          android:layout_width="match_parent"
+          android:layout_height="1px"
+          android:layout_marginStart="16dp"
+          android:layout_marginEnd="16dp"
+          android:background="@android:color/darker_gray"
+          app:layout_constraintTop_toBottomOf="@id/tvBirthdate" />
+
+        <TextView
+          android:id="@+id/tvChangePassword"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="?attr/selectableItemBackground"
+          android:paddingStart="16dp"
+          android:paddingTop="12dp"
+          android:paddingEnd="16dp"
+          android:paddingBottom="12dp"
+          android:text="@string/change_password"
+          android:textColor="@android:color/black"
+          android:textSize="16dp"
+          app:layout_constraintTop_toBottomOf="@id/dividerFour" />
+
+        <View
+          android:id="@+id/dividerFive"
+          android:layout_width="match_parent"
+          android:layout_height="1px"
+          android:layout_marginStart="16dp"
+          android:layout_marginEnd="16dp"
+          android:background="@android:color/darker_gray"
+          app:layout_constraintTop_toBottomOf="@id/tvChangePassword" />
+
+        <TextView
+          android:id="@+id/tvUseFingerprint"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:background="?attr/selectableItemBackground"
+          android:paddingStart="16dp"
+          android:paddingTop="12dp"
+          android:paddingEnd="16dp"
+          android:paddingBottom="12dp"
+          android:text="@string/use_fingerprint_auth"
+          android:textColor="@android:color/black"
+          android:textSize="16dp"
+          app:layout_constraintTop_toBottomOf="@id/dividerFive" />
+
+        <Switch
+          android:id="@+id/switcherUseFingerprint"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginEnd="16dp"
+          app:layout_constraintBottom_toBottomOf="@id/tvUseFingerprint"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintTop_toTopOf="@id/tvUseFingerprint" />
+
+        <Button
+          android:id="@+id/btnSignOut"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="32dp"
+          android:text="@string/sign_out"
+          android:textAllCaps="false"
+          android:textColor="@android:color/white"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toBottomOf="@id/tvUseFingerprint" />
+
+      </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.appbar.AppBarLayout
+      android:id="@+id/ablProfile"
+      android:layout_width="match_parent"
+      android:layout_height="300dp">
+
+      <com.google.android.material.appbar.CollapsingToolbarLayout
+        android:id="@+id/ctblProfile"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:contentScrim="?attr/colorPrimary"
+        app:layout_scrollFlags="scroll|exitUntilCollapsed|snap"
+        app:scrimAnimationDuration="300"
+        app:scrimVisibleHeightTrigger="@dimen/height_trigger"
+        app:title="@string/profile">
+
+        <ImageView
+          android:id="@+id/ivAvatar"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:background="@android:color/black"
+          android:scaleType="centerCrop"
+          app:layout_collapseMode="parallax"
+          tools:background="@android:color/transparent" />
+
+        <androidx.appcompat.widget.Toolbar
+          android:id="@+id/tbProfile"
+          android:layout_width="match_parent"
+          android:layout_height="@dimen/toolbar_height"
+          app:layout_collapseMode="pin" />
+
+      </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+  </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</layout>

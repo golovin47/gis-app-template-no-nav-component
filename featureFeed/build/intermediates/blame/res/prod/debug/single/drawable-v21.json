@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable-v21/abc_list_divider_material.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/ce12b8c890e95d464d6ad90c2d56d379/res/drawable-v21/abc_list_divider_material.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable-v21/abc_dialog_material_background.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/ce12b8c890e95d464d6ad90c2d56d379/res/drawable-v21/abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable-v21/design_bottom_navigation_item_background.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/bccafa60b28f43ba8c1927f0830f8b70/res/drawable-v21/design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable-v21/design_password_eye.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/bccafa60b28f43ba8c1927f0830f8b70/res/drawable-v21/design_password_eye.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable-v21/avd_show_password.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/bccafa60b28f43ba8c1927f0830f8b70/res/drawable-v21/avd_show_password.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/ce12b8c890e95d464d6ad90c2d56d379/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable-v21/notification_action_background.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/cc3162c3946a38e54a358894371c4280/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/ce12b8c890e95d464d6ad90c2d56d379/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/ce12b8c890e95d464d6ad90c2d56d379/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable-v21/avd_hide_password.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/bccafa60b28f43ba8c1927f0830f8b70/res/drawable-v21/avd_hide_password.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable-v21/mtrl_popupmenu_background.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/bccafa60b28f43ba8c1927f0830f8b70/res/drawable-v21/mtrl_popupmenu_background.xml"
+    }
+]

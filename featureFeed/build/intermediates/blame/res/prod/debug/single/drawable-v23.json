@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable-v23/fingerprint_dialog_fp_to_error.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/d6b40816bebe718652eb2a71be3c2c58/res/drawable-v23/fingerprint_dialog_fp_to_error.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable-v23/abc_control_background_material.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/ce12b8c890e95d464d6ad90c2d56d379/res/drawable-v23/abc_control_background_material.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable-v23/fingerprint_dialog_error_to_fp.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/d6b40816bebe718652eb2a71be3c2c58/res/drawable-v23/fingerprint_dialog_error_to_fp.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/drawable-v23/mtrl_popupmenu_background_dark.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/bccafa60b28f43ba8c1927f0830f8b70/res/drawable-v23/mtrl_popupmenu_background_dark.xml"
+    }
+]

@@ -1,0 +1,8 @@
+<resources>
+  <string name="app_name">FeatureMainScreen</string>
+
+  <string name="feed">Feed</string>
+  <string name="chart">Chart</string>
+  <string name="chat">Chat</string>
+  <string name="settings">Settings</string>
+</resources>

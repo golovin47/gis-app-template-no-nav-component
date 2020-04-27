@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="feed_inner_offset">4dp</dimen>
+    <dimen name="feed_outer_offset">8dp</dimen>
+    <string name="app_name">FeatureFeed</string>
+    <string name="feed">Feed</string>
+    <string name="your_feed_is_empty">Your Feed is empty</string>
+</resources>

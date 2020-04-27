@@ -1,0 +1,86 @@
+[
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/color-v23/mtrl_dark_on_surface_emphasis_medium.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/bccafa60b28f43ba8c1927f0830f8b70/res/color-v23/mtrl_dark_on_surface_emphasis_medium.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/color-v23/mtrl_on_surface_emphasis_medium.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/bccafa60b28f43ba8c1927f0830f8b70/res/color-v23/mtrl_on_surface_emphasis_medium.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/color-v23/mtrl_dark_on_surface_disabled.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/bccafa60b28f43ba8c1927f0830f8b70/res/color-v23/mtrl_dark_on_surface_disabled.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/color-v23/mtrl_dark_on_primary_emphasis_medium.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/bccafa60b28f43ba8c1927f0830f8b70/res/color-v23/mtrl_dark_on_primary_emphasis_medium.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/color-v23/abc_tint_default.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/ce12b8c890e95d464d6ad90c2d56d379/res/color-v23/abc_tint_default.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/color-v23/mtrl_on_primary_emphasis_medium.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/bccafa60b28f43ba8c1927f0830f8b70/res/color-v23/mtrl_on_primary_emphasis_medium.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/color-v23/abc_color_highlight_material.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/ce12b8c890e95d464d6ad90c2d56d379/res/color-v23/abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/color-v23/mtrl_dark_on_primary_emphasis_high_type.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/bccafa60b28f43ba8c1927f0830f8b70/res/color-v23/mtrl_dark_on_primary_emphasis_high_type.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/color-v23/mtrl_on_primary_emphasis_high_type.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/bccafa60b28f43ba8c1927f0830f8b70/res/color-v23/mtrl_on_primary_emphasis_high_type.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/color-v23/mtrl_on_surface_disabled.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/bccafa60b28f43ba8c1927f0830f8b70/res/color-v23/mtrl_on_surface_disabled.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/color-v23/abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/ce12b8c890e95d464d6ad90c2d56d379/res/color-v23/abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/color-v23/abc_btn_colored_text_material.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/ce12b8c890e95d464d6ad90c2d56d379/res/color-v23/abc_btn_colored_text_material.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/color-v23/abc_tint_seek_thumb.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/ce12b8c890e95d464d6ad90c2d56d379/res/color-v23/abc_tint_seek_thumb.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/color-v23/abc_tint_spinner.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/ce12b8c890e95d464d6ad90c2d56d379/res/color-v23/abc_tint_spinner.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/color-v23/mtrl_dark_on_surface_emphasis_high_type.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/bccafa60b28f43ba8c1927f0830f8b70/res/color-v23/mtrl_dark_on_surface_emphasis_high_type.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/color-v23/mtrl_on_surface_emphasis_high_type.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/bccafa60b28f43ba8c1927f0830f8b70/res/color-v23/mtrl_on_surface_emphasis_high_type.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/color-v23/abc_tint_edittext.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/ce12b8c890e95d464d6ad90c2d56d379/res/color-v23/abc_tint_edittext.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/color-v23/mtrl_on_primary_disabled.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/bccafa60b28f43ba8c1927f0830f8b70/res/color-v23/mtrl_on_primary_disabled.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/color-v23/abc_tint_btn_checkable.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/ce12b8c890e95d464d6ad90c2d56d379/res/color-v23/abc_tint_btn_checkable.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/color-v23/abc_tint_switch_track.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/ce12b8c890e95d464d6ad90c2d56d379/res/color-v23/abc_tint_switch_track.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/color-v23/mtrl_dark_on_primary_disabled.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/bccafa60b28f43ba8c1927f0830f8b70/res/color-v23/mtrl_dark_on_primary_disabled.xml"
+    }
+]

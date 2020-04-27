@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/transition/exit_transition.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/src/main/res/transition/exit_transition.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/transition/enter_transition.xml",
+        "source": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/src/main/res/transition/enter_transition.xml"
+    }
+]

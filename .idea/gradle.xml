@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="PLATFORM" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/buildSrc" />
+            <option value="$PROJECT_DIR$/featureAuth" />
+            <option value="$PROJECT_DIR$/featureAuthWithPhone" />
+            <option value="$PROJECT_DIR$/featureChart" />
+            <option value="$PROJECT_DIR$/featureChat" />
+            <option value="$PROJECT_DIR$/featureChooseCountry" />
+            <option value="$PROJECT_DIR$/featureMainScreen" />
+            <option value="$PROJECT_DIR$/featureOnboarding" />
+            <option value="$PROJECT_DIR$/featureUserProfile" />
+            <option value="$PROJECT_DIR$/repository" />
+            <option value="$PROJECT_DIR$/utils" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

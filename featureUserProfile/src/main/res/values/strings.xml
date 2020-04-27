@@ -1,0 +1,24 @@
+<resources>
+  <string name="app_name">FeatureUserProfile</string>
+
+  <string name="username">Username</string>
+  <string name="change_username">Change username</string>
+  <string name="email">Email</string>
+  <string name="change_email">Change email</string>
+  <string name="phone">Phone</string>
+  <string name="change_phone">Change phone</string>
+  <string name="birthdate">Birthdate</string>
+  <string name="change_birthdate">Change birthdate</string>
+  <string name="change_password">Change password</string>
+  <string name="old_password">Old password</string>
+  <string name="new_password">New password</string>
+
+  <string name="permissions_dialog_title">Permissions are needed</string>
+  <string name="permissions_dialog_message">To use this feature you need to grant permissions in app settings. </string>
+  <string name="go_to_settings">Go to Settings</string>
+  <string name="take_a_photo">Take a photo</string>
+  <string name="choose_from_gallery">Choose from gallery</string>
+  <string name="use_fingerprint_auth">Use fingerprint auth</string>
+  <string name="sign_out">Sign Out</string>
+
+</resources>

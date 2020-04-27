@@ -1,0 +1,48 @@
+apply plugin: 'com.android.library'
+apply from: "$rootProject.projectDir/baseconfig.gradle"
+
+android {
+    productFlavors {
+        stage {
+            dimension "default"
+            buildConfigField "String", "BASE_URL", '"https://google.com/"'
+//            buildConfigField "String", "API_KEY", '"0cfc7c44-2fe0-4e7c-941d-3557696f7ac6"'
+        }
+
+        prod {
+            dimension "default"
+            buildConfigField "String", "BASE_URL", '"https://google.com/"'
+//            buildConfigField "String", "API_KEY", '"0cfc7c44-2fe0-4e7c-941d-3557696f7ac6"'
+        }
+    }
+}
+
+dependencies {
+    implementation project(':utils')
+
+    implementation Deps.socialAuth
+    implementation Deps.socialAuthFacebook
+    implementation Deps.socialAuthTwitter
+    implementation Deps.socialAuthInstagram
+    implementation Deps.socialAuthGoogle
+    implementation Deps.biometricPrompt
+
+    implementation Deps.okHttp
+    implementation Deps.okHttpInteceptor
+
+    implementation Deps.retrofit
+    implementation Deps.retrofitRxJavaAdapter
+    implementation Deps.retrofitConverterLoganSquare
+
+    implementation(Deps.giphy) { transitive = true }
+
+    implementation Deps.loganSquare
+    kapt Deps.loganSquareCompiler
+    implementation Deps.jacksonCore
+
+    implementation Deps.room
+    implementation Deps.rxRoom
+    kapt Deps.roomCompiler
+
+    debugImplementation Deps.debugDb
+}

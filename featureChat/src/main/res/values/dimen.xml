@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <dimen name="chat_room_item_height">64dp</dimen>
+  <dimen name="top_offset_for_same_messages">8dp</dimen>
+  <dimen name="top_offset_for_different_messages">16dp</dimen>
+  <dimen name="bottom_offset_for_latest_message">16dp</dimen>
+
+  <dimen name="gallery_images_offset">4dp</dimen>
+
+  <dimen name="item_gif_edge_offset">4dp</dimen>
+  <dimen name="item_gif_offset">2dp</dimen>
+</resources>

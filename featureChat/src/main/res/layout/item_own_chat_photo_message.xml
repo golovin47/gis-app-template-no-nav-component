@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools">
+
+  <androidx.constraintlayout.widget.ConstraintLayout
+      android:id="@+id/itemRoot"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/ivAvatar"
+        android:layout_width="@dimen/avatar_size"
+        android:layout_height="@dimen/avatar_size"
+        android:layout_marginEnd="12dp"
+        tools:background="@android:color/holo_red_light"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <View
+        android:id="@+id/bgView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/shape_own_message"
+        android:backgroundTint="@android:color/holo_green_light"
+        app:layout_constraintTop_toTopOf="@id/ivImageMessage"
+        app:layout_constraintBottom_toBottomOf="@id/ivImageMessage"
+        app:layout_constraintEnd_toEndOf="@id/ivImageMessage"
+        app:layout_constraintStart_toStartOf="@id/ivImageMessage"/>
+
+    <ImageView
+        android:id="@+id/ivImageMessage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:adjustViewBounds="true"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintStart_toEndOf="@id/bgViewOuterGuideline"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/ivAvatar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="1"
+        app:layout_constraintVertical_bias="0"
+        tools:layout_width="72dp"
+        tools:layout_height="72dp"/>
+
+    <TextView
+        android:id="@+id/messageDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="4dp"
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp"
+        android:textColor="#60000000"
+        android:textSize="12dp"
+        android:background="@drawable/shape_round_corners"
+        android:backgroundTint="@color/bg_color_chat_photo_message_date"
+        app:layout_constraintEnd_toEndOf="@id/ivImageMessage"
+        app:layout_constraintBottom_toBottomOf="@id/ivImageMessage"
+        tools:text="10:21"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/bgViewOuterGuideline"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintGuide_percent="0.15"/>
+
+  </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

@@ -1,0 +1,7 @@
+<resources>
+  <string name="app_name">AuthWithPhone</string>
+  <string name="use_your_phone_number_to_authorise">Use your phone number to authorise</string>
+  <string name="enter_your_phone">Enter your phone</string>
+  <string name="resend">Resend</string>
+  <string name="resend_code_in">You can resend code in %s s</string>
+</resources>

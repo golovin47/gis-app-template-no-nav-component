@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools">
+
+  <androidx.constraintlayout.widget.ConstraintLayout
+      android:id="@+id/itemRoot"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/ivAvatar"
+        android:layout_width="@dimen/avatar_size"
+        android:layout_height="@dimen/avatar_size"
+        android:layout_marginStart="12dp"
+        tools:background="@android:color/holo_red_light"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <View
+        android:id="@+id/bgView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/shape_others_message"
+        android:backgroundTint="@android:color/darker_gray"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/messageDate"
+        app:layout_constraintEnd_toStartOf="@id/bgViewRightBarrier"
+        app:layout_constraintStart_toEndOf="@id/ivAvatar"/>
+
+    <ImageView
+        android:id="@+id/ivFile"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp"
+        android:padding="8dp"
+        android:src="@drawable/ic_attach_file"
+        android:background="@drawable/shape_circle"
+        android:backgroundTint="@color/colorPrimary"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintStart_toEndOf="@id/ivAvatar"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0"/>
+
+    <TextView
+        android:id="@+id/tvFileName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:paddingEnd="16dp"
+        android:textColor="@android:color/white"
+        android:textSize="14dp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:layout_constraintTop_toTopOf="@id/ivFile"
+        app:layout_constraintBottom_toTopOf="@id/tvFileSize"
+        app:layout_constraintStart_toEndOf="@id/ivFile"
+        app:layout_constraintEnd_toStartOf="@id/bgViewOuterGuideline"
+        tools:text="ihihihjkjhkjhkjhkhkjhjв"/>
+
+    <TextView
+        android:id="@+id/tvFileSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:paddingEnd="16dp"
+        android:textSize="12dp"
+        android:textColor="@android:color/white"
+        android:maxLines="1"
+        android:ellipsize="end"
+        app:layout_constrainedWidth="true"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintTop_toBottomOf="@id/tvFileName"
+        app:layout_constraintStart_toEndOf="@id/ivFile"
+        app:layout_constraintEnd_toStartOf="@id/bgViewOuterGuideline"
+        app:layout_constraintBottom_toBottomOf="@id/ivFile"
+        tools:text="k"/>
+
+    <TextView
+        android:id="@+id/messageDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingEnd="16dp"
+        android:paddingStart="4dp"
+        android:paddingBottom="4dp"
+        android:textColor="#60000000"
+        android:textSize="12dp"
+        android:maxLines="1"
+        app:layout_constraintHorizontal_bias="1"
+        app:layout_constraintStart_toEndOf="@id/messageDateLeftSpace"
+        app:layout_constraintEnd_toStartOf="@id/endBarrier"
+        app:layout_constraintTop_toBottomOf="@id/tvFileSize"
+        tools:text="10:21"/>
+
+    <Space
+        android:id="@+id/messageDateLeftSpace"
+        android:layout_width="8dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/ivFile"
+        app:layout_constraintTop_toTopOf="@id/messageDate"
+        app:layout_constraintBottom_toBottomOf="@id/messageDate"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/bgViewOuterGuideline"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintGuide_percent="0.85"/>
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/endBarrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="end"
+        app:constraint_referenced_ids="tvFileName, tvFileSize"/>
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/bgViewRightBarrier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="end"
+        app:constraint_referenced_ids="tvFileName, tvFileSize, messageDate"/>
+
+  </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

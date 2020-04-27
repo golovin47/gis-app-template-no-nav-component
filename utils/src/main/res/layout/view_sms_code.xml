@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+       xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto"
+       tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout"
+       tools:layout_width="wrap_content"
+       tools:layout_height="wrap_content">
+
+  <TextView
+      android:id="@+id/tvFirstDigit"
+      android:layout_width="40dp"
+      android:layout_height="wrap_content"
+      android:layout_marginEnd="4dp"
+      android:textColor="@android:color/black"
+      android:textSize="32dp"
+      android:gravity="center"
+      android:background="@drawable/bg_et_sms_code"
+      app:layout_constraintDimensionRatio="1"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintEnd_toStartOf="@id/tvSecondDigit"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintHorizontal_chainStyle="packed"
+      tools:text="1"/>
+
+  <TextView
+      android:id="@+id/tvSecondDigit"
+      android:layout_width="40dp"
+      android:layout_height="wrap_content"
+      android:layout_marginEnd="4dp"
+      android:layout_marginStart="4dp"
+      android:textColor="@android:color/black"
+      android:textSize="32dp"
+      android:gravity="center"
+      android:background="@drawable/bg_et_sms_code"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintStart_toEndOf="@id/tvFirstDigit"
+      app:layout_constraintEnd_toStartOf="@id/tvThirdDigit"
+      app:layout_constraintBottom_toBottomOf="parent"
+      tools:text="2"/>
+
+  <TextView
+      android:id="@+id/tvThirdDigit"
+      android:layout_width="40dp"
+      android:layout_height="wrap_content"
+      android:layout_marginEnd="4dp"
+      android:layout_marginStart="4dp"
+      android:textColor="@android:color/black"
+      android:textSize="32dp"
+      android:gravity="center"
+      android:background="@drawable/bg_et_sms_code"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintStart_toEndOf="@id/tvSecondDigit"
+      app:layout_constraintEnd_toStartOf="@id/tvFourthDigit"
+      app:layout_constraintBottom_toBottomOf="parent"
+      tools:text="3"/>
+
+  <TextView
+      android:id="@+id/tvFourthDigit"
+      android:layout_width="40dp"
+      android:layout_height="wrap_content"
+      android:layout_marginEnd="4dp"
+      android:layout_marginStart="4dp"
+      android:textColor="@android:color/black"
+      android:textSize="32dp"
+      android:gravity="center"
+      android:background="@drawable/bg_et_sms_code"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintStart_toEndOf="@id/tvThirdDigit"
+      app:layout_constraintEnd_toStartOf="@id/tvFifthDigit"
+      app:layout_constraintBottom_toBottomOf="parent"
+      tools:text="4"/>
+
+  <TextView
+      android:id="@+id/tvFifthDigit"
+      android:layout_width="40dp"
+      android:layout_height="wrap_content"
+      android:layout_marginEnd="4dp"
+      android:layout_marginStart="4dp"
+      android:textColor="@android:color/black"
+      android:textSize="32dp"
+      android:gravity="center"
+      android:background="@drawable/bg_et_sms_code"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintStart_toEndOf="@id/tvFourthDigit"
+      app:layout_constraintEnd_toStartOf="@id/tvSixthDigit"
+      app:layout_constraintBottom_toBottomOf="parent"
+      tools:text="5"/>
+
+  <TextView
+      android:id="@+id/tvSixthDigit"
+      android:layout_width="40dp"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="4dp"
+      android:textColor="@android:color/black"
+      android:textSize="32dp"
+      android:gravity="center"
+      android:background="@drawable/bg_et_sms_code"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintStart_toEndOf="@id/tvFifthDigit"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintBottom_toBottomOf="parent"
+      tools:text="6"/>
+
+  <com.gis.utils.presentation.ui.UnselectableEditText
+      android:id="@+id/etCodeInput"
+      android:layout_width="0dp"
+      android:layout_height="0dp"
+      android:maxLength="6"
+      android:digits="0123456789"
+      android:inputType="numberDecimal"
+      android:textSize="1px"
+      android:textColor="@android:color/transparent"
+      android:cursorVisible="false"
+      android:background="@null"
+      app:layout_constraintStart_toStartOf="@id/tvFirstDigit"
+      app:layout_constraintEnd_toEndOf="@id/tvSixthDigit"
+      app:layout_constraintTop_toTopOf="@id/tvFirstDigit"
+      app:layout_constraintBottom_toBottomOf="@id/tvFirstDigit"/>
+
+</merge>

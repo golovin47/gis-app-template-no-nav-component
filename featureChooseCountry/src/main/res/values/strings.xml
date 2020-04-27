@@ -1,0 +1,4 @@
+<resources>
+  <string name="app_name">ChooseCountry</string>
+  <string name="hint_search_country">Search country</string>
+</resources>

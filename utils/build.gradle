@@ -1,0 +1,19 @@
+apply plugin: 'com.android.library'
+apply from: "$rootProject.projectDir/baseconfig.gradle"
+
+dependencies {
+    implementation Deps.androidKtx
+    implementation Deps.constraintLayout
+
+    implementation Deps.rxBindingKotlin
+    implementation Deps.rxBindingDesignKotlin
+    implementation Deps.rxBindingAppCompatV7Kotlin
+
+    implementation Deps.glide
+    kapt Deps.glideCompiler
+
+    api Deps.keyboardWatcher
+
+    api Deps.phoneNumberUtil
+}
+

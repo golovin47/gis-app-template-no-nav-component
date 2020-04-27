@@ -1,0 +1,30 @@
+apply plugin: 'com.android.application'
+apply from: "$rootProject.projectDir/baseconfig.gradle"
+
+android {
+    defaultConfig {
+        applicationId "com.gis.apptemplateandroid"
+        manifestPlaceholders = [
+                facebookAppId        : "your facebook app id",
+                googleWebClientId    : "your google web client id",
+                twitterConsumerKey   : "your twitter consumer key",
+                twitterConsumerSecret: "your twitter consumer secret",
+                instagramClientId    : "your instagram client id",
+                instagramClientSecret: "your instagram client secret",
+                instagramRedirectUrl : "your instagram redirect url"
+        ]
+    }
+}
+
+dependencies {
+    implementation project(':featureAuth')
+    implementation project(':featureAuthWithPhone')
+    implementation project(':featureOnboarding')
+    implementation project(':featureChooseCountry')
+    implementation project(':featureChart')
+    implementation project(':featureChat')
+    implementation project(':featureUserProfile')
+    implementation project(':featureMainScreen')
+    implementation project(':repository')
+    implementation project(':utils')
+}

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools">
+
+  <androidx.constraintlayout.widget.ConstraintLayout
+      android:id="@+id/rootView"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:animateLayoutChanges="true">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tbConversation"
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_height="@dimen/toolbar_height"/>
+
+    <ImageView
+        android:id="@+id/ivConversationAvatar"
+        android:layout_width="@dimen/conversation_avatar_size"
+        android:layout_height="@dimen/conversation_avatar_size"
+        android:layout_marginStart="16dp"
+        app:layout_constraintTop_toTopOf="@id/tbConversation"
+        app:layout_constraintStart_toStartOf="@id/tbConversation"
+        app:layout_constraintBottom_toBottomOf="@id/tbConversation"
+        tools:background="@color/colorAccent"/>
+
+    <TextView
+        android:id="@+id/tvConversationName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/ivConversationAvatar"
+        app:layout_constraintStart_toEndOf="@id/ivConversationAvatar"
+        app:layout_constraintBottom_toBottomOf="@id/ivConversationAvatar"
+        app:layout_constraintEnd_toEndOf="@id/tbConversation"
+        android:layout_marginEnd="40dp"
+        android:layout_marginStart="16dp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:textColor="@android:color/white"
+        tools:text="Conversation #7"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvMessages"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:overScrollMode="never"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tbConversation"
+        app:layout_constraintBottom_toTopOf="@id/bottomDivider"/>
+
+    <View
+        android:id="@+id/bottomDivider"
+        android:layout_width="0dp"
+        android:layout_height="1px"
+        android:background="@android:color/darker_gray"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@id/etTextMessage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <EditText
+        android:id="@+id/etTextMessage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:maxHeight="65dp"
+        android:background="@null"
+        android:hint="@string/type_your_message"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:scrollbars="vertical"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toTopOf="@id/gifDivider"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/ivSend"/>
+
+    <ImageView
+        android:id="@+id/ivGallery"
+        android:layout_width="32dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_gallery"
+        android:tint="@color/colorPrimary"
+        app:layout_constraintBottom_toTopOf="@id/gifDivider"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="16dp"/>
+
+    <ImageView
+        android:id="@+id/ivCamera"
+        android:layout_width="32dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_photo_camera"
+        android:tint="@color/colorPrimary"
+        app:layout_constraintBottom_toTopOf="@id/gifDivider"
+        app:layout_constraintStart_toEndOf="@id/ivGallery"
+        android:layout_marginStart="16dp"/>
+
+    <ImageView
+        android:id="@+id/ivGif"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/ic_gif"
+        android:tint="@color/colorPrimary"
+        app:layout_constraintBottom_toTopOf="@id/gifDivider"
+        app:layout_constraintStart_toEndOf="@id/ivCamera"
+        android:layout_marginStart="8dp"/>
+
+    <ImageView
+        android:id="@+id/ivFile"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/ic_attach_file"
+        android:tint="@color/colorPrimary"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@id/gifDivider"
+        app:layout_constraintStart_toEndOf="@id/ivGif"/>
+
+    <ImageView
+        android:id="@+id/ivSend"
+        android:layout_width="@dimen/btn_send_size"
+        android:layout_height="@dimen/btn_send_size"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/ic_send"
+        android:padding="12dp"
+        android:background="@drawable/shape_circle"
+        android:backgroundTint="@color/colorPrimary"
+        app:layout_constraintBottom_toTopOf="@id/gifDivider"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gifTopGuideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="1"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/gifBottomGuideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="1.2"/>
+
+    <View
+        android:id="@+id/gifDivider"
+        android:layout_width="0dp"
+        android:layout_height="1px"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/gifTopGuideline"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvGifs"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/gifDivider"
+        app:layout_constraintBottom_toTopOf="@id/gifBottomGuideline"/>
+
+  </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

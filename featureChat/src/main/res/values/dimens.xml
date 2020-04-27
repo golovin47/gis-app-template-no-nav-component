@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <dimen name="avatar_size">48dp</dimen>
+  <dimen name="tb_title_start_margin">20dp</dimen>
+  <dimen name="chat_room_options_item_size">56dp</dimen>
+  <dimen name="conversation_avatar_size">48dp</dimen>
+  <dimen name="btn_send_size">48dp</dimen>
+  <dimen name="item_conversation_loading_height">48dp</dimen>
+</resources>

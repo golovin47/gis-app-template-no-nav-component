@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools">
+
+  <androidx.constraintlayout.widget.ConstraintLayout
+    android:id="@+id/rootContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+      android:id="@+id/onboardingContainer"
+      android:layout_width="0dp"
+      android:layout_height="0dp"
+      android:layout_marginBottom="24dp"
+      app:layout_constraintBottom_toTopOf="@id/bgPhone"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      tools:background="@color/colorPrimary" />
+
+    <View
+      android:id="@+id/bgPhone"
+      android:layout_width="0dp"
+      android:layout_height="56dp"
+      android:layout_marginBottom="16dp"
+      android:background="@drawable/shape_round_corners"
+      app:layout_constraintBottom_toTopOf="@id/btnSend"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintWidth_percent="0.8" />
+
+    <View
+      android:id="@+id/bgCountry"
+      android:layout_width="0dp"
+      android:layout_height="0dp"
+      app:layout_constraintBottom_toBottomOf="@id/bgPhone"
+      app:layout_constraintEnd_toEndOf="@id/ivDownArrow"
+      app:layout_constraintStart_toStartOf="@id/ivFlag"
+      app:layout_constraintTop_toTopOf="@id/bgPhone" />
+
+    <View
+      android:id="@+id/phoneBottomLine"
+      android:layout_width="0dp"
+      android:layout_height="1dp"
+      android:layout_marginEnd="8dp"
+      android:layout_marginBottom="8dp"
+      android:background="@android:color/darker_gray"
+      app:layout_constraintBottom_toBottomOf="@id/bgPhone"
+      app:layout_constraintEnd_toEndOf="@id/bgPhone"
+      app:layout_constraintStart_toStartOf="@id/tvCode" />
+
+    <ImageView
+      android:id="@+id/ivFlag"
+      android:layout_width="32dp"
+      android:layout_height="0dp"
+      android:layout_marginStart="8dp"
+      app:layout_constraintBottom_toBottomOf="@id/bgPhone"
+      app:layout_constraintDimensionRatio="4:3"
+      app:layout_constraintStart_toStartOf="@id/bgPhone"
+      app:layout_constraintTop_toTopOf="@id/bgPhone"
+      tools:src="@drawable/flag_of_russia" />
+
+    <ImageView
+      android:id="@+id/ivDownArrow"
+      android:layout_width="32dp"
+      android:layout_height="32dp"
+      android:src="@drawable/ic_arrow_drop_down"
+      android:tint="@android:color/black"
+      app:layout_constraintBottom_toBottomOf="@id/ivFlag"
+      app:layout_constraintStart_toEndOf="@id/ivFlag"
+      app:layout_constraintTop_toTopOf="@id/ivFlag" />
+
+    <TextView
+      android:id="@+id/tvCode"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:textColor="@android:color/black"
+      android:textSize="16dp"
+      app:layout_constraintBottom_toBottomOf="@id/ivFlag"
+      app:layout_constraintStart_toEndOf="@id/ivDownArrow"
+      app:layout_constraintTop_toTopOf="@id/ivFlag"
+      tools:text="+7" />
+
+    <EditText
+      android:id="@+id/etPhone"
+      android:layout_width="0dp"
+      android:layout_height="0dp"
+      android:layout_marginStart="8dp"
+      android:layout_marginEnd="8dp"
+      android:background="@null"
+      android:digits="0123456789"
+      android:hint="@string/enter_your_phone"
+      android:inputType="phone"
+      android:singleLine="true"
+      android:textSize="16dp"
+      app:layout_constraintBottom_toBottomOf="@id/bgPhone"
+      app:layout_constraintEnd_toStartOf="@id/ivError"
+      app:layout_constraintStart_toEndOf="@id/tvCode"
+      app:layout_constraintTop_toTopOf="@id/bgPhone" />
+
+    <ImageView
+      android:id="@+id/ivError"
+      android:layout_width="24dp"
+      android:layout_height="24dp"
+      android:layout_marginEnd="8dp"
+      android:visibility="gone"
+      android:src="@drawable/ic_error"
+      android:tint="@android:color/holo_red_dark"
+      app:layout_constraintBottom_toBottomOf="@id/etPhone"
+      app:layout_constraintEnd_toEndOf="@id/bgPhone"
+      app:layout_constraintTop_toTopOf="@id/etPhone"
+      tools:visibility="visible"/>
+
+    <Button
+      android:id="@+id/btnSend"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="24dp"
+      android:enabled="false"
+      android:text="@string/send"
+      android:textAllCaps="false"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent" />
+
+  </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

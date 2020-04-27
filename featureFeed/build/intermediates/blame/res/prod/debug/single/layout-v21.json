@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/cc3162c3946a38e54a358894371c4280/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/layout-v21/notification_action.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/cc3162c3946a38e54a358894371c4280/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/cc3162c3946a38e54a358894371c4280/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/ivan/StudioProjects/AppTemplateAndroid/featureFeed/build/intermediates/res/merged/prod/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/ivan/.gradle/caches/transforms-2/files-2.1/cc3162c3946a38e54a358894371c4280/res/layout-v21/notification_template_icon_group.xml"
+    }
+]
